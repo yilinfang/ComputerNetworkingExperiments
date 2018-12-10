@@ -88,6 +88,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GBNRdtReceiver.cpp" />
+    <ClCompile Include="GBNRdtSender.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -95,9 +97,13 @@
     <ClCompile Include="StopWait.cpp" />
     <ClCompile Include="StopWaitRdtReceiver.cpp" />
     <ClCompile Include="StopWaitRdtSender.cpp" />
+    <ClCompile Include="TCPRdtReceiver.cpp" />
+    <ClCompile Include="TCPRdtSender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="GBNRdtReceiver.h" />
+    <ClInclude Include="GBNRdtSender.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="NetworkService.h" />
     <ClInclude Include="RandomEventEnum.h" />
@@ -107,6 +113,8 @@
     <ClInclude Include="StopWaitRdtReceiver.h" />
     <ClInclude Include="StopWaitRdtSender.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TCPRdtReceiver.h" />
+    <ClInclude Include="TCPRdtSender.h" />
     <ClInclude Include="Tool.h" />
   </ItemGroup>
   <ItemGroup>
