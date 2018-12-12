@@ -8,7 +8,6 @@ private:
 	int N;
 	int base;
 	int count;
-	int preAck;
 	int nextSeqNum;
 	Packet* sndpkt;
 public:

@@ -41,8 +41,7 @@ bool GBNRdtSender::send(Message & message)
 
 void GBNRdtSender::receive(Packet & ackPkt)
 {
-	int checkSum = pUtils->calculateCheckSum(ackPkt);
-	if (checkSum == ackPkt.checksum)
+	if (pUtils->calculateCheckSum(ackPkt) == ackPkt.checksum)
 	{
 		base = (ackPkt.acknum + 1) % N;
 		cout << "此时滑动窗口的base值为:" << base << endl << "缓冲区中还有报文:" << endl;

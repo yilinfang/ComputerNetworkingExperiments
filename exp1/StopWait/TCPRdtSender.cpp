@@ -2,12 +2,12 @@
 #include "TCPRdtSender.h"
 
 
-TCPRdtSender::TCPRdtSender() :N(4), base(0), count(0), nextSeqNum(0), preAck(-1)
+TCPRdtSender::TCPRdtSender() :N(4), base(0), count(0), nextSeqNum(0)
 {
 	sndpkt = new Packet[N];
 }
 
-TCPRdtSender::TCPRdtSender(int n) : N(n), base(0), count(0), nextSeqNum(0), preAck(-1)
+TCPRdtSender::TCPRdtSender(int n) : N(n), base(0), count(0), nextSeqNum(0)
 {
 	sndpkt = new Packet[N];
 }
@@ -41,10 +41,9 @@ bool TCPRdtSender::send(Message & message)
 
 void TCPRdtSender::receive(Packet & ackPkt)
 {
-	int checkSum = pUtils->calculateCheckSum(ackPkt);
-	if (checkSum == ackPkt.checksum)
+	if (pUtils->calculateCheckSum(ackPkt) == ackPkt.checksum)
 	{
-		if (base == (ackPkt.acknum + 1) % N)
+		if (base == ackPkt.acknum)
 		{
 			count++;
 			if (count == 3)
@@ -59,8 +58,8 @@ void TCPRdtSender::receive(Packet & ackPkt)
 		{
 			count = 0;
 		}
-		base = (ackPkt.acknum + 1) % N;
-		cout << "此时滑动窗口的base值为:" << base << endl << "缓冲区中还有报文:" << endl;
+		base = ackPkt.acknum;
+		cout << "此时发送方滑动窗口的base值为:" << base << endl << "缓冲区中还有报文:" << endl;
 		int i = base;
 		while (i != nextSeqNum)
 		{
@@ -90,12 +89,12 @@ void TCPRdtSender::timeoutHandler(int seqNum)
 
 bool TCPRdtSender::getWaitingState()
 {
-	if ((nextSeqNum + 1) % N == base)
+	if ((nextSeqNum - base + N) % N < N / 2)
 	{
-		return true;
+		return false;
 	}
 	else
 	{
-		return false;
+		return N;
 	}
 }

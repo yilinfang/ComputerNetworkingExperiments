@@ -6,8 +6,9 @@ class TCPRdtReceiver :
 {
 private:
 	int N;
-	int expectedSeqNum;
+	int base;
 	Packet sndpkt;
+	Packet* buffer;
 public:
 	TCPRdtReceiver();
 	TCPRdtReceiver(int n);
