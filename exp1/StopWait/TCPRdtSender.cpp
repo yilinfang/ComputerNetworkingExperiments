@@ -44,21 +44,20 @@ void TCPRdtSender::receive(Packet & ackPkt)
 	int checkSum = pUtils->calculateCheckSum(ackPkt);
 	if (checkSum == ackPkt.checksum)
 	{
-		if (preAck == ackPkt.acknum)
+		if (base == (ackPkt.acknum + 1) % N)
 		{
 			count++;
 			if (count == 3)
 			{
 				count = 0;
-				pUtils->printPacket("对该报文进行快速重传", sndpkt[(base + preAck) % N]);
-				pns->sendToNetworkLayer(RECEIVER, sndpkt[(base + preAck) % N]);
+				pUtils->printPacket("对该报文进行快速重传", sndpkt[base]);
+				pns->sendToNetworkLayer(RECEIVER, sndpkt[base]);
 				return;
 			}
 		}
 		else
 		{
 			count = 0;
-			preAck = ackPkt.acknum;
 		}
 		base = (ackPkt.acknum + 1) % N;
 		cout << "此时滑动窗口的base值为:" << base << endl << "缓冲区中还有报文:" << endl;
@@ -86,12 +85,7 @@ void TCPRdtSender::timeoutHandler(int seqNum)
 	pUtils->printPacket("接收ack超时，重新发送此报文之后的报文", sndpkt[base]);
 	pns->stopTimer(SENDER, seqNum);
 	pns->startTimer(SENDER, Configuration::TIME_OUT, seqNum);
-	int i = base;
-	while (i != nextSeqNum)
-	{
-		pns->sendToNetworkLayer(RECEIVER, sndpkt[i]);
-		i = (i + 1) % N;
-	}
+	pns->sendToNetworkLayer(RECEIVER, sndpkt[base]);
 }
 
 bool TCPRdtSender::getWaitingState()
