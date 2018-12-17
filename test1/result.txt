@@ -1,49 +1,31 @@
 ******模拟网络环境******：模拟网络环境初始化...
 ******模拟网络环境******：模拟网络环境启动...
-******模拟网络环境******：发送方的数据包将在3.02到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29556,payload = AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：发送方的数据包将在3.1575到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29556,payload = AAAAAAAAAAAAAAAAAAAA
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：启动定时器, 当前时间 = 1, 定时器报文序号 = 0, 定时器Timeout时间 = 21
+******模拟网络环境******：启动定时器, 当前时间 = 1.6175, 定时器报文序号 = 0, 定时器Timeout时间 = 21.6175
 接收方滑动窗口的base值为0
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
 ******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 21, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 21, 定时器报文序号 = 0, 定时器Timeout时间 = 41
-******模拟网络环境******：发送方的数据包将在24.42到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29556,payload = AAAAAAAAAAAAAAAAAAAA
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 41, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 41, 定时器报文序号 = 0, 定时器Timeout时间 = 61
-******模拟网络环境******：发送方的数据包将在42.86到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29556,payload = AAAAAAAAAAAAAAAAAAAA
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在50.76到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在5.5875到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 50.76, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在58.645到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 26985,payload = BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：关闭定时器, 当前时间 = 5.5875, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在6.9825到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 26985,payload = BBBBBBBBBBBBBBBBBBBB
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 26985, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：启动定时器, 当前时间 = 50.775, 定时器报文序号 = 0, 定时器Timeout时间 = 70.775
-******模拟网络环境******：发送方的数据包将在60.605到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 24414,payload = CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：启动定时器, 当前时间 = 5.8825, 定时器报文序号 = 0, 定时器Timeout时间 = 25.8825
+******模拟网络环境******：发送方的数据包将在11.4225到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 24414,payload = CCCCCCCCCCCCCCCCCCCC
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：发送方的数据包将在65.945到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 21843,payload = DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：发送方的数据包将在15.5625到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 21843,payload = DDDDDDDDDDDDDDDDDDDD
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：发送方的数据包将在73.925到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 19272,payload = EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 4, acknum = -1,checksum = 19272,payload = EEEEEEEEEEEEEEEEEEEE
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
 接收方滑动窗口的base值为1
@@ -52,52 +34,66 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在67.935到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在16.8725到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
 ******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在20.4725到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
 ******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
 
 接收方期待的报文序列号4
 接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+******模拟网络环境******：接收方的确认包将在29.9225到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
     : seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
     : seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：关闭定时器, 当前时间 = 67.935, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 67.935, 定时器报文序号 = 0, 定时器Timeout时间 = 87.935
+******模拟网络环境******：关闭定时器, 当前时间 = 16.8725, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 16.8725, 定时器报文序号 = 0, 定时器Timeout时间 = 36.8725
+此时发送方滑动窗口的base值为:3
+缓冲区中还有报文:
+    : seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
+    : seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：关闭定时器, 当前时间 = 20.4725, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 20.4725, 定时器报文序号 = 0, 定时器Timeout时间 = 40.4725
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：关闭定时器, 当前时间 = 29.9225, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 29.9225, 定时器报文序号 = 0, 定时器Timeout时间 = 49.9225
+接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：关闭定时器, 当前时间 = 49.9225, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 49.9225, 定时器报文序号 = 0, 定时器Timeout时间 = 69.9225
+******模拟网络环境******：发送方的数据包将在59.5025到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 19272,payload = EEEEEEEEEEEEEEEEEEEE
+
 接收方滑动窗口的base值为4
 接收方缓存报文: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
 ******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在83.515到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在64.2925到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 83.515, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在91.21到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 16701,payload = FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：关闭定时器, 当前时间 = 64.2925, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在70.5825到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 16701,payload = FFFFFFFFFFFFFFFFFFFF
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 16701, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：启动定时器, 当前时间 = 84.56, 定时器报文序号 = 0, 定时器Timeout时间 = 104.56
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 14130,payload = HGGGGGGGGGGGGGGGGGGG
-
-******模拟网络环境******：发送方的数据包将在94.47到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 14130,payload = HGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：启动定时器, 当前时间 = 64.3425, 定时器报文序号 = 0, 定时器Timeout时间 = 84.3425
+******模拟网络环境******：发送方的数据包将在75.8425到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 14130,payload = GGGGGGGGGGGGGGGGGGGG
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：发送方的数据包将在105.25到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 11559,payload = HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：发送方的数据包将在81.3125到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 11559,payload = HHHHHHHHHHHHHHHHHHHH
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
-******模拟网络环境******：发送方的数据包将在110.27到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 8996,payload = IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：发送方的数据包将在84.4525到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 8996,payload = IIIIIIIIIIIIIIIIIIII
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
 接收方滑动窗口的base值为5
@@ -106,81 +102,61 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在96.6到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 14130, HGGGGGGGGGGGGGGGGGGG
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在99.82到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在72.8825到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
 此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
     : seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
     : seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
     : seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 96.6, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 96.6, 定时器报文序号 = 0, 定时器Timeout时间 = 116.6
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-    : seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
-    : seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 99.82, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 99.82, 定时器报文序号 = 0, 定时器Timeout时间 = 119.82
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在109.35到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-    : seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
-    : seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 109.35, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 109.35, 定时器报文序号 = 0, 定时器Timeout时间 = 129.35
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在117.43到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-对该报文进行快速重传: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：发送方的数据包将在118.63到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 14130,payload = GGGGGGGGGGGGGGGGGGGG
-
+******模拟网络环境******：关闭定时器, 当前时间 = 72.8825, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 72.8825, 定时器报文序号 = 0, 定时器Timeout时间 = 92.8825
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
 ******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在84.1325到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
 ******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
 
+接收方期待的报文序列号0
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在90.9025到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
+    : seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 84.1325, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 84.1325, 定时器报文序号 = 0, 定时器Timeout时间 = 104.133
+接收方滑动窗口的base值为0
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
 ******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
-******模拟网络环境******：接收方的确认包将在122.44到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 129.35, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 129.35, 定时器报文序号 = 0, 定时器Timeout时间 = 149.35
-******模拟网络环境******：发送方的数据包将在138.12到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 14130,payload = GGGGGGGGGGGGGGGGGGGG
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在144.22到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在95.7625到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+此时发送方滑动窗口的base值为:0
+缓冲区中还有报文:
+    : seqnum = 0, acknum = -1, checksum = 8996, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 90.9025, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 90.9025, 定时器报文序号 = 0, 定时器Timeout时间 = 110.903
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 144.22, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在153.868到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 6425,payload = JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：关闭定时器, 当前时间 = 95.7625, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在105.683到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 6425,payload = JJJJJJJJJJJJJJJJJJJJ
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 6425, JJJJJJJJJJJJJJJJJJJJ
-******模拟网络环境******：启动定时器, 当前时间 = 144.278, 定时器报文序号 = 0, 定时器Timeout时间 = 164.278
-******模拟网络环境******：发送方的数据包将在157.808到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 3854,payload = KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：启动定时器, 当前时间 = 95.8925, 定时器报文序号 = 0, 定时器Timeout时间 = 115.892
+******模拟网络环境******：发送方的数据包将在108.333到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 3854,payload = KKKKKKKKKKKKKKKKKKKK
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 3854, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 1283,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在115.083到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 1283,payload = LLLLLLLLLLLLLLLLLLLL
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 1283, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：发送方的数据包将在160.938到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 64247,payload = MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：发送方的数据包将在123.193到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 64247,payload = MMMMMMMMMMMMMMMMMMMM
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
 接收方滑动窗口的base值为1
@@ -196,53 +172,46 @@
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在160.858到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 1283, LLLLLLLLLLLLLLLLLLLL
-    : seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：关闭定时器, 当前时间 = 160.858, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 160.858, 定时器报文序号 = 0, 定时器Timeout时间 = 180.858
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
-接收方期待的报文序列号3
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在168.738到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 1283, LLLLLLLLLLLLLLLLLLLL
-    : seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：关闭定时器, 当前时间 = 168.738, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 168.738, 定时器报文序号 = 0, 定时器Timeout时间 = 188.738
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 1283, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：关闭定时器, 当前时间 = 188.738, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 188.738, 定时器报文序号 = 0, 定时器Timeout时间 = 208.738
-******模拟网络环境******：发送方的数据包将在198.008到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 1283,payload = LLLLLLLLLLLLLLLLLLLL
-
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 1283, LLLLLLLLLLLLLLLLLLLL
 ******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
 
+接收方期待的报文序列号4
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在125.373到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 6425, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：关闭定时器, 当前时间 = 115.892, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 115.892, 定时器报文序号 = 0, 定时器Timeout时间 = 135.892
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 6425,payload = JJJJJJJJJJJJJJJJJJJJ
+
+接收方滑动窗口的base值为4
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
 ******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在202.958到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在135.963到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 64247, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：关闭定时器, 当前时间 = 125.373, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 125.373, 定时器报文序号 = 0, 定时器Timeout时间 = 145.373
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 202.958, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在206.513到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 61676,payload = NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：关闭定时器, 当前时间 = 135.963, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在142.92到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 61676,payload = NNNNNNNNNNNNNNNNNNNN
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 61676, NNNNNNNNNNNNNNNNNNNN
-******模拟网络环境******：启动定时器, 当前时间 = 203.173, 定时器报文序号 = 0, 定时器Timeout时间 = 223.173
-******模拟网络环境******：发送方的数据包将在207.973到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 59105,payload = OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：启动定时器, 当前时间 = 136.47, 定时器报文序号 = 0, 定时器Timeout时间 = 156.47
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 59105,payload = OOOOOOOOOOOOOOOOOOOO
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：发送方的数据包将在210.863到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 56534,payload = PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：发送方的数据包将在147.27到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 56534,payload = PPPPPPPPPPPPPPPPPPPP
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
-******模拟网络环境******：发送方的数据包将在213.713到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 53971,payload = QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：发送方的数据包将在154.68到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 53971,payload = QQQQQQQQQQQQQQQQQQQQ
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
 接收方滑动窗口的base值为5
@@ -251,97 +220,125 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在215.283到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
-
-接收方期待的报文序列号7
-接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在220.213到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-接收方滑动窗口的base值为7
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
-******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
-
-接收方期待的报文序列号0
-接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 0,checksum = 12851,payload = .....................
-******模拟网络环境******：接收方的确认包将在224.443到达对方, 确认包为-->seqnum = -999999, acknum = 0,checksum = 12851,payload = .....................
-接收方滑动窗口的base值为0
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
-
-接收方期待的报文序列号1
-接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在226.863到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在145.12到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
 此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
     : seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
     : seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
     : seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 215.283, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 215.283, 定时器报文序号 = 0, 定时器Timeout时间 = 235.283
-此时发送方滑动窗口的base值为:7
+******模拟网络环境******：关闭定时器, 当前时间 = 145.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 145.12, 定时器报文序号 = 0, 定时器Timeout时间 = 165.12
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在155.31到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在164.24到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
     : seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
     : seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 220.213, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 220.213, 定时器报文序号 = 0, 定时器Timeout时间 = 240.213
+******模拟网络环境******：关闭定时器, 当前时间 = 155.31, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 155.31, 定时器报文序号 = 0, 定时器Timeout时间 = 175.31
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
+    : seqnum = 7, acknum = -1, checksum = 56534, PPPPPPPPPPPPPPPPPPPP
+    : seqnum = 0, acknum = -1, checksum = 53971, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：关闭定时器, 当前时间 = 164.24, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 164.24, 定时器报文序号 = 0, 定时器Timeout时间 = 184.24
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 184.24, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 184.24, 定时器报文序号 = 0, 定时器Timeout时间 = 204.24
+******模拟网络环境******：发送方的数据包将在192.82到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 59105,payload = OOOOOOOOOOOOOOOOOOOO
+
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+
+接收方期待的报文序列号1
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 204.24, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 204.24, 定时器报文序号 = 0, 定时器Timeout时间 = 224.24
+******模拟网络环境******：发送方的数据包将在206.31到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 59105,payload = OOOOOOOOOOOOOOOOOOOO
+
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 59105, OOOOOOOOOOOOOOOOOOOO
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在216.43到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 226.863, 定时器报文序号 = 0
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 51400,payload = RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：关闭定时器, 当前时间 = 216.43, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在226.22到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 51400,payload = RRRRRRRRRRRRRRRRRRRR
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：启动定时器, 当前时间 = 227.65, 定时器报文序号 = 0, 定时器Timeout时间 = 247.65
-******模拟网络环境******：发送方的数据包将在230.393到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 48829,payload = SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：启动定时器, 当前时间 = 216.86, 定时器报文序号 = 0, 定时器Timeout时间 = 236.86
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 2, acknum = -1,checksum = 48829,payload = SSSSSSSSSSSSSSSSSSSS
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：发送方的数据包将在240.343到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 46258,payload = TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：发送方的数据包将在229.67到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 46258,payload = TTTTTTTTTTTTTTTTTTTT
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
-******模拟网络环境******：发送方的数据包将在251.163到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 43687,payload = UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：发送方的数据包将在235.8到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 43687,payload = UUUUUUUUUUUUUUUUUUUU
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
-接收方滑动窗口的base值为1
-接收方缓存报文: seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在240.113到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-    : seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
-    : seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
-    : seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：关闭定时器, 当前时间 = 240.113, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 240.113, 定时器报文序号 = 0, 定时器Timeout时间 = 260.113
-接收方滑动窗口的base值为1
-接收方缓存报文: seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在247.063到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-    : seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
-    : seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
-    : seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：关闭定时器, 当前时间 = 247.063, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 247.063, 定时器报文序号 = 0, 定时器Timeout时间 = 267.063
-接收方滑动窗口的base值为1
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在261.313到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-对该报文进行快速重传: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：发送方的数据包将在266.033到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 51400,payload = RRRRRRRRRRRRRRRRRRRR
-
 接收方滑动窗口的base值为1
 接收方缓存报文: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
 ******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
 
+接收方期待的报文序列号2
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在230.31到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+接收方滑动窗口的base值为2
+接收方缓存报文: seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
+接收方期待的报文序列号2
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在236.84到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
+    : seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 230.31, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 230.31, 定时器报文序号 = 0, 定时器Timeout时间 = 250.31
+接收方滑动窗口的base值为2
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
+接收方期待的报文序列号2
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在243.1到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
+    : seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 236.84, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 236.84, 定时器报文序号 = 0, 定时器Timeout时间 = 256.84
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
+    : seqnum = 3, acknum = -1, checksum = 46258, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 4, acknum = -1, checksum = 43687, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 243.1, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 243.1, 定时器报文序号 = 0, 定时器Timeout时间 = 263.1
+接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：关闭定时器, 当前时间 = 263.1, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 263.1, 定时器报文序号 = 0, 定时器Timeout时间 = 283.1
+******模拟网络环境******：发送方的数据包将在269.31到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 48829,payload = SSSSSSSSSSSSSSSSSSSS
+
+接收方滑动窗口的base值为2
+接收方缓存报文: seqnum = 2, acknum = -1, checksum = 48829, SSSSSSSSSSSSSSSSSSSS
 ******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
 
 ******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
@@ -350,121 +347,76 @@
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：关闭定时器, 当前时间 = 267.063, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 267.063, 定时器报文序号 = 0, 定时器Timeout时间 = 287.063
-******模拟网络环境******：发送方的数据包将在273.202到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 51400,payload = RRRRRRRRRRRRRRRRRRRR
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
-******模拟网络环境******：接收方的确认包将在274.792到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
-接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：关闭定时器, 当前时间 = 287.063, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 287.063, 定时器报文序号 = 0, 定时器Timeout时间 = 307.063
-******模拟网络环境******：发送方的数据包将在291.183到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 51400,payload = RRRRRRRRRRRRRRRRRRRR
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 51400, RRRRRRRRRRRRRRRRRRRR
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在299.653到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在272.57到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 299.653, 定时器报文序号 = 0
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 5, acknum = -1,checksum = 41116,payload = WVVVVVVVVVVVVVVVVVVV
-
-******模拟网络环境******：发送方的数据包将在305.935到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 41116,payload = WVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：关闭定时器, 当前时间 = 272.57, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在282.35到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 41116,payload = VVVVVVVVVVVVVVVVVVVV
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
-******模拟网络环境******：启动定时器, 当前时间 = 299.655, 定时器报文序号 = 0, 定时器Timeout时间 = 319.655
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 38545,payload = XWWWWWWWWWWWWWWWWWWW
-
-******模拟网络环境******：发送方的数据包将在314.805到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 38545,payload = XWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：启动定时器, 当前时间 = 273.31, 定时器报文序号 = 0, 定时器Timeout时间 = 293.31
+******模拟网络环境******：发送方的数据包将在291.18到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 38545,payload = WWWWWWWWWWWWWWWWWWWW
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：发送方的数据包将在321.715到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 35974,payload = XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：发送方的数据包将在300.94到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 35974,payload = XXXXXXXXXXXXXXXXXXXX
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 33411,payload = YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 0, acknum = -1,checksum = 33411,payload = ZYYYYYYYYYYYYYYYYYYY
+
+******模拟网络环境******：发送方的数据包将在302.22到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 33411,payload = ZYYYYYYYYYYYYYYYYYYY
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 5, acknum = -1, checksum = 41116, WVVVVVVVVVVVVVVVVVVV
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在307.955到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
-    : seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 307.955, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 307.955, 定时器报文序号 = 0, 定时器Timeout时间 = 327.955
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 38545, XWWWWWWWWWWWWWWWWWWW
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在321.955到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在331.655到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
-    : seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 321.955, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 321.955, 定时器报文序号 = 0, 定时器Timeout时间 = 341.955
-对该报文进行快速重传: seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
-******模拟网络环境******：发送方的数据包将在336.625到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 41116,payload = VVVVVVVVVVVVVVVVVVVV
-
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
 ******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在340.825到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 340.825, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 340.825, 定时器报文序号 = 0, 定时器Timeout时间 = 360.825
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 360.825, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 360.825, 定时器报文序号 = 0, 定时器Timeout时间 = 380.825
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 38545,payload = WWWWWWWWWWWWWWWWWWWW
-
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 380.825, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 380.825, 定时器报文序号 = 0, 定时器Timeout时间 = 400.825
-******模拟网络环境******：发送方的数据包将在383.285到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 38545,payload = WWWWWWWWWWWWWWWWWWWW
-
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 38545, WWWWWWWWWWWWWWWWWWWW
 ******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在296.12到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 41116, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：关闭定时器, 当前时间 = 293.31, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 293.31, 定时器报文序号 = 0, 定时器Timeout时间 = 313.31
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 5, acknum = -1,checksum = 41116,payload = VVVVVVVVVVVVVVVVVVVV
+
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
+    : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 296.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 296.12, 定时器报文序号 = 0, 定时器Timeout时间 = 316.12
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 35974, XXXXXXXXXXXXXXXXXXXX
 ******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
 
 接收方期待的报文序列号0
 接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在384.865到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+******模拟网络环境******：接收方的确认包将在308.95到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 0, acknum = -1, checksum = 33411, ZYYYYYYYYYYYYYYYYYYY
+接收方期待的报文序列号0
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在318.57到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
 此时发送方滑动窗口的base值为:0
 缓冲区中还有报文:
     : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 384.865, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 384.865, 定时器报文序号 = 0, 定时器Timeout时间 = 404.865
+******模拟网络环境******：关闭定时器, 当前时间 = 308.95, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 308.95, 定时器报文序号 = 0, 定时器Timeout时间 = 328.95
+此时发送方滑动窗口的base值为:0
+缓冲区中还有报文:
+    : seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 318.57, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 318.57, 定时器报文序号 = 0, 定时器Timeout时间 = 338.57
 接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 404.865, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 404.865, 定时器报文序号 = 0, 定时器Timeout时间 = 424.865
-******模拟网络环境******：发送方的数据包将在406.205到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 33411,payload = YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 338.57, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 338.57, 定时器报文序号 = 0, 定时器Timeout时间 = 358.57
+******模拟网络环境******：发送方的数据包将在346.77到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 33411,payload = YYYYYYYYYYYYYYYYYYYY
 
 接收方滑动窗口的base值为0
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
@@ -472,22 +424,32 @@
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在409.245到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+******模拟网络环境******：接收方的确认包将在348.85到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 358.57, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 358.57, 定时器报文序号 = 0, 定时器Timeout时间 = 378.57
+******模拟网络环境******：发送方的数据包将在365.98到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 33411,payload = YYYYYYYYYYYYYYYYYYYY
+
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 33411, YYYYYYYYYYYYYYYYYYYY
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在376.15到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 409.245, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在417.092到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 30840,payload = ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：关闭定时器, 当前时间 = 376.15, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在380.55到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 30840,payload = ZZZZZZZZZZZZZZZZZZZZ
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 30840, ZZZZZZZZZZZZZZZZZZZZ
-******模拟网络环境******：启动定时器, 当前时间 = 409.252, 定时器报文序号 = 0, 定时器Timeout时间 = 429.252
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 2, acknum = -1,checksum = 29554,payload = AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：启动定时器, 当前时间 = 376.22, 定时器报文序号 = 0, 定时器Timeout时间 = 396.22
+******模拟网络环境******：发送方的数据包将在383.17到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 29554,payload = AAAAAAAAAAAAAAAAAAAA
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 29554, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 26983,payload = BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：发送方的数据包将在390.2到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26983,payload = BBBBBBBBBBBBBBBBBBBB
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：发送方的数据包将在427.312到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 24412,payload = CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：发送方的数据包将在394.2到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 24412,payload = CCCCCCCCCCCCCCCCCCCC
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
 接收方滑动窗口的base值为1
@@ -496,205 +458,124 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在418.212到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在382.76到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 29554, AAAAAAAAAAAAAAAAAAAA
     : seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
     : seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 418.212, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 418.212, 定时器报文序号 = 0, 定时器Timeout时间 = 438.212
-接收方滑动窗口的base值为2
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
-接收方期待的报文序列号2
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在436.772到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 29554, AAAAAAAAAAAAAAAAAAAA
-    : seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
-    : seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 436.772, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 436.772, 定时器报文序号 = 0, 定时器Timeout时间 = 456.772
-接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 29554, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 456.772, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 456.772, 定时器报文序号 = 0, 定时器Timeout时间 = 476.772
-******模拟网络环境******：发送方的数据包将在463.852到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 29554,payload = AAAAAAAAAAAAAAAAAAAA
-
+******模拟网络环境******：关闭定时器, 当前时间 = 382.76, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 382.76, 定时器报文序号 = 0, 定时器Timeout时间 = 402.76
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 29554, AAAAAAAAAAAAAAAAAAAA
 ******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在467.872到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在384.57到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 此时发送方滑动窗口的base值为:3
 缓冲区中还有报文:
     : seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
     : seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 467.872, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 467.872, 定时器报文序号 = 0, 定时器Timeout时间 = 487.872
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 487.872, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 487.872, 定时器报文序号 = 0, 定时器Timeout时间 = 507.872
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 26983,payload = CBBBBBBBBBBBBBBBBBBB
-
-******模拟网络环境******：发送方的数据包将在492.292到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26983,payload = CBBBBBBBBBBBBBBBBBBB
-
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 26983, CBBBBBBBBBBBBBBBBBBB
-接收方期待的报文序列号3
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在502.512到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
-    : seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 502.512, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 502.512, 定时器报文序号 = 0, 定时器Timeout时间 = 522.512
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 522.512, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 522.512, 定时器报文序号 = 0, 定时器Timeout时间 = 542.512
-******模拟网络环境******：发送方的数据包将在529.952到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26983,payload = BBBBBBBBBBBBBBBBBBBB
-
+******模拟网络环境******：关闭定时器, 当前时间 = 384.57, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 384.57, 定时器报文序号 = 0, 定时器Timeout时间 = 404.57
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 26983, BBBBBBBBBBBBBBBBBBBB
 ******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
 
+接收方期待的报文序列号4
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在400.69到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+接收方滑动窗口的base值为4
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
 ******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在533.893到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在402.44到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 24412, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：关闭定时器, 当前时间 = 400.69, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 400.69, 定时器报文序号 = 0, 定时器Timeout时间 = 420.69
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 533.893, 定时器报文序号 = 0
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 21841,payload = DDDDDDDDDDDDDDDDDDDD
-
-******模拟网络环境******：发送方的数据包将在538.125到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 21841,payload = DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：关闭定时器, 当前时间 = 402.44, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在413.817到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 21841,payload = DDDDDDDDDDDDDDDDDDDD
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：启动定时器, 当前时间 = 534.355, 定时器报文序号 = 0, 定时器Timeout时间 = 554.355
-******模拟网络环境******：发送方的数据包将在542.045到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 19270,payload = EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：启动定时器, 当前时间 = 403.237, 定时器报文序号 = 0, 定时器Timeout时间 = 423.237
+******模拟网络环境******：发送方的数据包将在420.997到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 19270,payload = EEEEEEEEEEEEEEEEEEEE
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 16699,payload = FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：发送方的数据包将在426.117到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 16699,payload = FFFFFFFFFFFFFFFFFFFF
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = HGGGGGGGGGGGGGGGGGGG
-
-******模拟网络环境******：发送方的数据包将在550.485到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = HGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：发送方的数据包将在435.247到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = GGGGGGGGGGGGGGGGGGGG
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在544.595到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在548.105到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
-    : seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
-    : seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 544.595, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 544.595, 定时器报文序号 = 0, 定时器Timeout时间 = 564.595
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
-    : seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
-    : seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 548.105, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 548.105, 定时器报文序号 = 0, 定时器Timeout时间 = 568.105
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 0, acknum = -1, checksum = 14136, HGGGGGGGGGGGGGGGGGGG
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：关闭定时器, 当前时间 = 568.105, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 568.105, 定时器报文序号 = 0, 定时器Timeout时间 = 588.105
-******模拟网络环境******：发送方的数据包将在572.605到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 21841,payload = DDDDDDDDDDDDDDDDDDDD
-
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 21841, DDDDDDDDDDDDDDDDDDDD
 ******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
 
+接收方期待的报文序列号6
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在419.567到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
+    : seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
+    : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：关闭定时器, 当前时间 = 419.567, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 419.567, 定时器报文序号 = 0, 定时器Timeout时间 = 439.567
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 6, acknum = -1, checksum = 19270, EEEEEEEEEEEEEEEEEEEE
 ******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
 
 接收方期待的报文序列号7
 接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在575.345到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+******模拟网络环境******：接收方的确认包将在425.857到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
 此时发送方滑动窗口的base值为:7
 缓冲区中还有报文:
     : seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
     : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 575.345, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 575.345, 定时器报文序号 = 0, 定时器Timeout时间 = 595.345
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：关闭定时器, 当前时间 = 595.345, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 595.345, 定时器报文序号 = 0, 定时器Timeout时间 = 615.345
-******模拟网络环境******：发送方的数据包将在603.435到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 16699,payload = FFFFFFFFFFFFFFFFFFFF
-
+******模拟网络环境******：关闭定时器, 当前时间 = 425.857, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 425.857, 定时器报文序号 = 0, 定时器Timeout时间 = 445.857
 接收方滑动窗口的base值为7
 接收方缓存报文: seqnum = 7, acknum = -1, checksum = 16699, FFFFFFFFFFFFFFFFFFFF
 ******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
 
 接收方期待的报文序列号0
 接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在613.145到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+******模拟网络环境******：接收方的确认包将在433.757到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
 此时发送方滑动窗口的base值为:0
 缓冲区中还有报文:
     : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 613.145, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 613.145, 定时器报文序号 = 0, 定时器Timeout时间 = 633.145
-接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 633.145, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 633.145, 定时器报文序号 = 0, 定时器Timeout时间 = 653.145
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = HGGGGGGGGGGGGGGGGGGG
-
-******模拟网络环境******：发送方的数据包将在639.025到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = HGGGGGGGGGGGGGGGGGGG
-
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 0, acknum = -1, checksum = 14136, HGGGGGGGGGGGGGGGGGGG
-接收方期待的报文序列号0
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在648.345到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
-此时发送方滑动窗口的base值为:0
-缓冲区中还有报文:
-    : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 648.345, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 648.345, 定时器报文序号 = 0, 定时器Timeout时间 = 668.345
-接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 668.345, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 668.345, 定时器报文序号 = 0, 定时器Timeout时间 = 688.345
-******模拟网络环境******：发送方的数据包将在676.885到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = GGGGGGGGGGGGGGGGGGGG
-
+******模拟网络环境******：关闭定时器, 当前时间 = 433.757, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 433.757, 定时器报文序号 = 0, 定时器Timeout时间 = 453.757
 接收方滑动窗口的base值为0
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
 ******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在681.795到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在437.557到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 681.795, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在686.465到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 11565,payload = HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：关闭定时器, 当前时间 = 437.557, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在443.69到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 11565,payload = HHHHHHHHHHHHHHHHHHHH
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 11565, HHHHHHHHHHHHHHHHHHHH
-******模拟网络环境******：启动定时器, 当前时间 = 683.125, 定时器报文序号 = 0, 定时器Timeout时间 = 703.125
-******模拟网络环境******：发送方的数据包将在687.965到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 8994,payload = IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：启动定时器, 当前时间 = 438.72, 定时器报文序号 = 0, 定时器Timeout时间 = 458.72
+******模拟网络环境******：发送方的数据包将在445.38到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 8994,payload = IIIIIIIIIIIIIIIIIIII
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：发送方的数据包将在689.665到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 6423,payload = JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：发送方的数据包将在453.79到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 6423,payload = JJJJJJJJJJJJJJJJJJJJ
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
-******模拟网络环境******：发送方的数据包将在695.805到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 3852,payload = KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：发送方的数据包将在460.98到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 3852,payload = KKKKKKKKKKKKKKKKKKKK
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
 接收方滑动窗口的base值为1
@@ -703,98 +584,140 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在691.815到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在452.98到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
 ******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在460.85到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
+    : seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+    : seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：关闭定时器, 当前时间 = 452.98, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 452.98, 定时器报文序号 = 0, 定时器Timeout时间 = 472.98
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
 ******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
 
 接收方期待的报文序列号4
 接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在701.175到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
-此时发送方滑动窗口的base值为:2
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = /....................
+******模拟网络环境******：接收方的确认包将在471.38到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = /....................
+此时发送方滑动窗口的base值为:3
 缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
     : seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
     : seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：关闭定时器, 当前时间 = 691.815, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 691.815, 定时器报文序号 = 0, 定时器Timeout时间 = 711.815
+******模拟网络环境******：关闭定时器, 当前时间 = 460.85, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 460.85, 定时器报文序号 = 0, 定时器Timeout时间 = 480.85
 接收方滑动窗口的base值为4
 接收方缓存报文: seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
 ******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在712.015到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：关闭定时器, 当前时间 = 701.175, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 701.175, 定时器报文序号 = 0, 定时器Timeout时间 = 721.175
+******模拟网络环境******：接收方的确认包将在476.21到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 712.015, 定时器报文序号 = 0
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 5, acknum = -1,checksum = 1281,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：关闭定时器, 当前时间 = 476.21, 定时器报文序号 = 0
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 5, acknum = -1,checksum = 1281,payload = MLLLLLLLLLLLLLLLLLLL
+
+******模拟网络环境******：发送方的数据包将在483.907到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 1281,payload = MLLLLLLLLLLLLLLLLLLL
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：启动定时器, 当前时间 = 712.67, 定时器报文序号 = 0, 定时器Timeout时间 = 732.67
-******模拟网络环境******：发送方的数据包将在715.905到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：启动定时器, 当前时间 = 477.607, 定时器报文序号 = 0, 定时器Timeout时间 = 497.607
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = NMMMMMMMMMMMMMMMMMMM
+
+******模拟网络环境******：发送方的数据包将在494.237到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = NMMMMMMMMMMMMMMMMMMM
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：发送方的数据包将在721.715到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 61674,payload = NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：发送方的数据包将在496.467到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 61674,payload = NNNNNNNNNNNNNNNNNNNN
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
-******模拟网络环境******：发送方的数据包将在729.865到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 59111,payload = OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：发送方的数据包将在499.697到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 59111,payload = OOOOOOOOOOOOOOOOOOOO
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 5, acknum = -1, checksum = 1281, MLLLLLLLLLLLLLLLLLLL
 接收方期待的报文序列号5
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在724.625到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在485.187到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+此时发送方滑动窗口的base值为:5
+缓冲区中还有报文:
+    : seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
+    : seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+    : seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+    : seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 485.187, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 485.187, 定时器报文序号 = 0, 定时器Timeout时间 = 505.187
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 64245, NMMMMMMMMMMMMMMMMMMM
+接收方期待的报文序列号5
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在504.277到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
 接收方期待的报文序列号5
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在731.295到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
-    : seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
-    : seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
-    : seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：关闭定时器, 当前时间 = 724.625, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 724.625, 定时器报文序号 = 0, 定时器Timeout时间 = 744.625
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
+******模拟网络环境******：接收方的确认包将在506.007到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
 接收方期待的报文序列号5
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
-******模拟网络环境******：接收方的确认包将在737.855到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
+******模拟网络环境******：接收方的确认包将在512.278到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
     : seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
     : seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
     : seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
     : seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：关闭定时器, 当前时间 = 731.295, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 731.295, 定时器报文序号 = 0, 定时器Timeout时间 = 751.295
-接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：关闭定时器, 当前时间 = 751.295, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 751.295, 定时器报文序号 = 0, 定时器Timeout时间 = 771.295
-******模拟网络环境******：发送方的数据包将在758.605到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 1281,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：关闭定时器, 当前时间 = 504.277, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 504.277, 定时器报文序号 = 0, 定时器Timeout时间 = 524.277
+对该报文进行快速重传: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在516.067到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 1281,payload = LLLLLLLLLLLLLLLLLLLL
 
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
 ******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
 
+接收方期待的报文序列号6
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在518.477到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+    : seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+    : seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 518.477, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 518.477, 定时器报文序号 = 0, 定时器Timeout时间 = 538.477
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：关闭定时器, 当前时间 = 538.477, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 538.477, 定时器报文序号 = 0, 定时器Timeout时间 = 558.477
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = NMMMMMMMMMMMMMMMMMMM
+
+******模拟网络环境******：发送方的数据包将在548.497到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = NMMMMMMMMMMMMMMMMMMM
+
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 64245, NMMMMMMMMMMMMMMMMMMM
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在551.397到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+    : seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+    : seqnum = 0, acknum = -1, checksum = 59111, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 551.397, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 551.397, 定时器报文序号 = 0, 定时器Timeout时间 = 571.397
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：关闭定时器, 当前时间 = 571.397, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 571.397, 定时器报文序号 = 0, 定时器Timeout时间 = 591.397
+******模拟网络环境******：发送方的数据包将在579.097到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 64245,payload = MMMMMMMMMMMMMMMMMMMM
+
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
 ******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
 
 ******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
@@ -803,22 +726,22 @@
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在764.855到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在584.087到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 764.855, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在769.763到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 56540,payload = PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：关闭定时器, 当前时间 = 584.087, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在588.507到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 56540,payload = PPPPPPPPPPPPPPPPPPPP
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 56540, PPPPPPPPPPPPPPPPPPPP
-******模拟网络环境******：启动定时器, 当前时间 = 764.933, 定时器报文序号 = 0, 定时器Timeout时间 = 784.933
-******模拟网络环境******：发送方的数据包将在774.563到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 53969,payload = QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：启动定时器, 当前时间 = 584.737, 定时器报文序号 = 0, 定时器Timeout时间 = 604.737
+******模拟网络环境******：发送方的数据包将在591.887到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 53969,payload = QQQQQQQQQQQQQQQQQQQQ
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 53969, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 51398,payload = RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：发送方的数据包将在601.317到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 51398,payload = RRRRRRRRRRRRRRRRRRRR
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：发送方的数据包将在784.243到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 48827,payload = SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：发送方的数据包将在609.507到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 48827,payload = SSSSSSSSSSSSSSSSSSSS
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
 接收方滑动窗口的base值为1
@@ -827,366 +750,396 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在772.893到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在590.157到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 53969, QQQQQQQQQQQQQQQQQQQQ
     : seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
     : seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 772.893, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 772.893, 定时器报文序号 = 0, 定时器Timeout时间 = 792.893
+******模拟网络环境******：关闭定时器, 当前时间 = 590.157, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 590.157, 定时器报文序号 = 0, 定时器Timeout时间 = 610.157
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 53969, QQQQQQQQQQQQQQQQQQQQ
 ******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在776.813到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在599.297到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 此时发送方滑动窗口的base值为:3
 缓冲区中还有报文:
     : seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
     : seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 776.813, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 776.813, 定时器报文序号 = 0, 定时器Timeout时间 = 796.813
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
-接收方期待的报文序列号3
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在787.963到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 787.963, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 787.963, 定时器报文序号 = 0, 定时器Timeout时间 = 807.963
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：关闭定时器, 当前时间 = 807.963, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 807.963, 定时器报文序号 = 0, 定时器Timeout时间 = 827.963
-******模拟网络环境******：发送方的数据包将在813.233到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 51398,payload = RRRRRRRRRRRRRRRRRRRR
-
+******模拟网络环境******：关闭定时器, 当前时间 = 599.297, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 599.297, 定时器报文序号 = 0, 定时器Timeout时间 = 619.297
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 51398, RRRRRRRRRRRRRRRRRRRR
 ******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
 
+接收方期待的报文序列号4
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在606.397到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：关闭定时器, 当前时间 = 606.397, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 606.397, 定时器报文序号 = 0, 定时器Timeout时间 = 626.397
+接收方滑动窗口的base值为4
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
 ******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在818.363到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：关闭定时器, 当前时间 = 626.397, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 626.397, 定时器报文序号 = 0, 定时器Timeout时间 = 646.397
+******模拟网络环境******：发送方的数据包将在629.327到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 48827,payload = SSSSSSSSSSSSSSSSSSSS
+
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 48827, SSSSSSSSSSSSSSSSSSSS
+接收方期待的报文序列号5
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在635.327到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 818.363, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在823.203到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 46256,payload = TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：关闭定时器, 当前时间 = 635.327, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在637.122到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 46256,payload = TTTTTTTTTTTTTTTTTTTT
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 46256, TTTTTTTTTTTTTTTTTTTT
-******模拟网络环境******：启动定时器, 当前时间 = 818.613, 定时器报文序号 = 0, 定时器Timeout时间 = 838.613
-******模拟网络环境******：发送方的数据包将在828.343到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 43685,payload = UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：启动定时器, 当前时间 = 636.042, 定时器报文序号 = 0, 定时器Timeout时间 = 656.042
+******模拟网络环境******：发送方的数据包将在644.852到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 43685,payload = UUUUUUUUUUUUUUUUUUUU
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 43685, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：发送方的数据包将在835.273到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 41114,payload = VVVVVVVVVVVVVVVVVVVV
-
-发送方发送报文: seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
-******模拟网络环境******：发送方的数据包将在841.863到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 38551,payload = WWWWWWWWWWWWWWWWWWWW
-
-发送方发送报文: seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 46256, TTTTTTTTTTTTTTTTTTTT
 ******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在641.792到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：发送方的数据包将在648.522到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 41114,payload = VVVVVVVVVVVVVVVVVVVV
+
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：发送方的数据包将在650.642到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 38551,payload = WWWWWWWWWWWWWWWWWWWW
+
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 43685, UUUUUUUUUUUUUUUUUUUU
+    : seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
+    : seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：关闭定时器, 当前时间 = 641.792, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 641.792, 定时器报文序号 = 0, 定时器Timeout时间 = 661.792
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 43685, UUUUUUUUUUUUUUUUUUUU
 ******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
 
 接收方期待的报文序列号7
 接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在830.683到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-此时发送方滑动窗口的base值为:7
-缓冲区中还有报文:
-    : seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
-    : seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 830.683, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 830.683, 定时器报文序号 = 0, 定时器Timeout时间 = 850.683
+******模拟网络环境******：接收方的确认包将在649.303到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
 接收方滑动窗口的base值为7
 接收方缓存报文: seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
 ******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
 
 接收方期待的报文序列号0
 接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在844.433到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+******模拟网络环境******：接收方的确认包将在659.143到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 41114, VVVVVVVVVVVVVVVVVVVV
+    : seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：关闭定时器, 当前时间 = 649.303, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 649.303, 定时器报文序号 = 0, 定时器Timeout时间 = 669.303
 接收方滑动窗口的base值为0
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
 ******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在851.462到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:0
-缓冲区中还有报文:
-    : seqnum = 0, acknum = -1, checksum = 38551, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 844.433, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 844.433, 定时器报文序号 = 0, 定时器Timeout时间 = 864.433
+******模拟网络环境******：接收方的确认包将在661.503到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 851.462, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在852.822到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 35980,payload = XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：关闭定时器, 当前时间 = 661.503, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在667.345到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 35980,payload = XXXXXXXXXXXXXXXXXXXX
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 35980, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：启动定时器, 当前时间 = 851.692, 定时器报文序号 = 0, 定时器Timeout时间 = 871.692
-******模拟网络环境******：发送方的数据包将在857.082到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 33409,payload = YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：启动定时器, 当前时间 = 662.055, 定时器报文序号 = 0, 定时器Timeout时间 = 682.055
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 2, acknum = -1,checksum = 33409,payload = YYYYYYYYYYYYYYYYYYYY
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：发送方的数据包将在859.102到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 30838,payload = ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：发送方的数据包将在677.255到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 30838,payload = ZZZZZZZZZZZZZZZZZZZZ
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：发送方的数据包将在684.335到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 29552,payload = AAAAAAAAAAAAAAAAAAAA
+
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
 接收方滑动窗口的base值为1
 接收方缓存报文: seqnum = 1, acknum = -1, checksum = 35980, XXXXXXXXXXXXXXXXXXXX
 ******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在858.063到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 4, acknum = -1,checksum = 29552,payload = AAAAAAAAAAAAAAAAAAAA
-
-发送方发送报文: seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：接收方的确认包将在677.675到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
-接收方缓存报文: seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
-
-接收方期待的报文序列号3
-接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在861.722到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+接收方缓存报文: seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
+接收方期待的报文序列号2
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在679.285到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
     : seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
     : seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 858.063, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 858.063, 定时器报文序号 = 0, 定时器Timeout时间 = 878.063
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
-******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
-
-接收方期待的报文序列号4
-接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在872.022到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
-此时发送方滑动窗口的base值为:3
+******模拟网络环境******：关闭定时器, 当前时间 = 677.675, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 677.675, 定时器报文序号 = 0, 定时器Timeout时间 = 697.675
+此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
     : seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
     : seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 861.722, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 861.722, 定时器报文序号 = 0, 定时器Timeout时间 = 881.722
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 872.022, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 872.022, 定时器报文序号 = 0, 定时器Timeout时间 = 892.022
-接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 892.022, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 892.022, 定时器报文序号 = 0, 定时器Timeout时间 = 912.022
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 4, acknum = -1,checksum = 29552,payload = BAAAAAAAAAAAAAAAAAAA
-
-******模拟网络环境******：发送方的数据包将在900.192到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 29552,payload = BAAAAAAAAAAAAAAAAAAA
-
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 4, acknum = -1, checksum = 29552, BAAAAAAAAAAAAAAAAAAA
-接收方期待的报文序列号4
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在902.252到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 902.252, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 902.252, 定时器报文序号 = 0, 定时器Timeout时间 = 922.252
-接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：关闭定时器, 当前时间 = 922.252, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 922.252, 定时器报文序号 = 0, 定时器Timeout时间 = 942.252
-******模拟网络环境******：发送方的数据包将在926.742到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 29552,payload = AAAAAAAAAAAAAAAAAAAA
-
-接收方滑动窗口的base值为4
+******模拟网络环境******：关闭定时器, 当前时间 = 679.285, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 679.285, 定时器报文序号 = 0, 定时器Timeout时间 = 699.285
+接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
+接收方期待的报文序列号2
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在688.335到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
+    : seqnum = 3, acknum = -1, checksum = 30838, ZZZZZZZZZZZZZZZZZZZZ
+    : seqnum = 4, acknum = -1, checksum = 29552, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：关闭定时器, 当前时间 = 688.335, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 688.335, 定时器报文序号 = 0, 定时器Timeout时间 = 708.335
+接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 708.335, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 708.335, 定时器报文序号 = 0, 定时器Timeout时间 = 728.335
+******模拟网络环境******：发送方的数据包将在715.745到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 33409,payload = YYYYYYYYYYYYYYYYYYYY
+
+接收方滑动窗口的base值为2
+接收方缓存报文: seqnum = 2, acknum = -1, checksum = 33409, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+
 ******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在931.952到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在724.855到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 931.952, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在933.24到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 26981,payload = BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：关闭定时器, 当前时间 = 724.855, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在731.39到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 26981,payload = BBBBBBBBBBBBBBBBBBBB
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 26981, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：启动定时器, 当前时间 = 932.06, 定时器报文序号 = 0, 定时器Timeout时间 = 952.06
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 24410,payload = CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：启动定时器, 当前时间 = 724.87, 定时器报文序号 = 0, 定时器Timeout时间 = 744.87
+******模拟网络环境******：发送方的数据包将在741.54到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 24410,payload = CCCCCCCCCCCCCCCCCCCC
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：发送方的数据包将在743.03到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 21839,payload = DDDDDDDDDDDDDDDDDDDD
+
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：发送方的数据包将在746.91到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 19276,payload = EEEEEEEEEEEEEEEEEEEE
+
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 26981, BBBBBBBBBBBBBBBBBBBB
 ******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在939.62到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-******模拟网络环境******：发送方的数据包将在942.112到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 21839,payload = DDDDDDDDDDDDDDDDDDDD
-
-发送方发送报文: seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：发送方的数据包将在951.462到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 19276,payload = EEEEEEEEEEEEEEEEEEEE
-
-发送方发送报文: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：接收方的确认包将在733.67到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
 此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
     : seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
     : seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
     : seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：关闭定时器, 当前时间 = 939.62, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 939.62, 定时器报文序号 = 0, 定时器Timeout时间 = 959.62
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在956.462到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
-    : seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
-    : seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：关闭定时器, 当前时间 = 956.462, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 956.462, 定时器报文序号 = 0, 定时器Timeout时间 = 976.462
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 976.462, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 976.462, 定时器报文序号 = 0, 定时器Timeout时间 = 996.462
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 24410,payload = CCCCCCCCCCCCCCCCCCCC
-
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 996.462, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 996.462, 定时器报文序号 = 0, 定时器Timeout时间 = 1016.46
-******模拟网络环境******：发送方的数据包将在998.252到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 24410,payload = CCCCCCCCCCCCCCCCCCCC
-
+******模拟网络环境******：关闭定时器, 当前时间 = 733.67, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 733.67, 定时器报文序号 = 0, 定时器Timeout时间 = 753.67
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
 ******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 21839, DDDDDDDDDDDDDDDDDDDD
 ******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
 
+接收方期待的报文序列号0
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在747.97到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方滑动窗口的base值为0
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
 ******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 1016.46, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1016.46, 定时器报文序号 = 0, 定时器Timeout时间 = 1036.46
-******模拟网络环境******：发送方的数据包将在1017.46到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 24410,payload = CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+******模拟网络环境******：接收方的确认包将在757.01到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+此时发送方滑动窗口的base值为:0
+缓冲区中还有报文:
+    : seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：关闭定时器, 当前时间 = 747.97, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 747.97, 定时器报文序号 = 0, 定时器Timeout时间 = 767.97
+接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：关闭定时器, 当前时间 = 767.97, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 767.97, 定时器报文序号 = 0, 定时器Timeout时间 = 787.97
+******模拟网络环境******：发送方的数据包将在778.06到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 19276,payload = EEEEEEEEEEEEEEEEEEEE
 
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 24410, CCCCCCCCCCCCCCCCCCCC
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 19276, EEEEEEEEEEEEEEEEEEEE
 接收方期待的报文序列号1
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1025.97到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在785.73到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1025.97, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1028.49到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 16705,payload = FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：关闭定时器, 当前时间 = 785.73, 定时器报文序号 = 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 16705,payload = FFFFFFFFFFFFFFFFFFFF
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：启动定时器, 当前时间 = 1026.46, 定时器报文序号 = 0, 定时器Timeout时间 = 1046.46
-******模拟网络环境******：发送方的数据包将在1039.46到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 14134,payload = GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：启动定时器, 当前时间 = 786.555, 定时器报文序号 = 0, 定时器Timeout时间 = 806.555
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 2, acknum = -1,checksum = 14134,payload = GGGGGGGGGGGGGGGGGGGG
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 11563,payload = IHHHHHHHHHHHHHHHHHHH
-
-******模拟网络环境******：发送方的数据包将在1045.93到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 11563,payload = IHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：发送方的数据包将在794.02到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 11563,payload = HHHHHHHHHHHHHHHHHHHH
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
-******模拟网络环境******：发送方的数据包将在1055.61到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 8992,payload = IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 4, acknum = -1,checksum = 8992,payload = JIIIIIIIIIIIIIIIIIII
+
+******模拟网络环境******：发送方的数据包将在798.21到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 8992,payload = JIIIIIIIIIIIIIIIIIII
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+接收方滑动窗口的base值为1
+接收方缓存报文: seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在795.11到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+此时发送方滑动窗口的base值为:1
+缓冲区中还有报文:
+    : seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+    : seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
+    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 795.11, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 795.11, 定时器报文序号 = 0, 定时器Timeout时间 = 815.11
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 4, acknum = -1, checksum = 8992, JIIIIIIIIIIIIIIIIIII
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在805.23到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+此时发送方滑动窗口的base值为:1
+缓冲区中还有报文:
+    : seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+    : seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
+    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 805.23, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 805.23, 定时器报文序号 = 0, 定时器Timeout时间 = 825.23
+接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：关闭定时器, 当前时间 = 825.23, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 825.23, 定时器报文序号 = 0, 定时器Timeout时间 = 845.23
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 1, acknum = -1,checksum = 16705,payload = GFFFFFFFFFFFFFFFFFFF
+
+******模拟网络环境******：发送方的数据包将在834.99到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 16705,payload = GFFFFFFFFFFFFFFFFFFF
+
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 16705, GFFFFFFFFFFFFFFFFFFF
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在838.7到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+对该报文进行快速重传: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：发送方的数据包将在845.09到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 16705,payload = FFFFFFFFFFFFFFFFFFFF
+
 接收方滑动窗口的base值为1
 接收方缓存报文: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
 ******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1038到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在848.28到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：关闭定时器, 当前时间 = 845.23, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 845.23, 定时器报文序号 = 0, 定时器Timeout时间 = 865.23
+******模拟网络环境******：发送方的数据包将在853.76到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 16705,payload = FFFFFFFFFFFFFFFFFFFF
+
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
     : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
     : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 1038, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1038, 定时器报文序号 = 0, 定时器Timeout时间 = 1058
+******模拟网络环境******：关闭定时器, 当前时间 = 848.28, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 848.28, 定时器报文序号 = 0, 定时器Timeout时间 = 868.28
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 16705, FFFFFFFFFFFFFFFFFFFF
+接收方期待的报文序列号2
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在855.04到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
+    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 855.04, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 855.04, 定时器报文序号 = 0, 定时器Timeout时间 = 875.04
+接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：关闭定时器, 当前时间 = 875.04, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 875.04, 定时器报文序号 = 0, 定时器Timeout时间 = 895.04
+******模拟网络环境******：发送方的数据包将在885.79到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 14134,payload = GGGGGGGGGGGGGGGGGGGG
+
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
 ******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
 
-接收方期待的报文序列号3
-接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1046.87到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 11563, IHHHHHHHHHHHHHHHHHHH
-接收方期待的报文序列号3
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1051.76到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
-    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 1046.87, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1046.87, 定时器报文序号 = 0, 定时器Timeout时间 = 1066.87
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
-    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 1051.76, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1051.76, 定时器报文序号 = 0, 定时器Timeout时间 = 1071.76
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
-接收方期待的报文序列号3
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1059.74到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
-    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：关闭定时器, 当前时间 = 1059.74, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1059.74, 定时器报文序号 = 0, 定时器Timeout时间 = 1079.74
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
-******模拟网络环境******：关闭定时器, 当前时间 = 1079.74, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1079.74, 定时器报文序号 = 0, 定时器Timeout时间 = 1099.74
-******模拟网络环境******：发送方的数据包将在1080.94到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 11563,payload = HHHHHHHHHHHHHHHHHHHH
-
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 3, acknum = -1, checksum = 11563, HHHHHHHHHHHHHHHHHHHH
 ******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
 
+接收方期待的报文序列号4
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = /....................
+******模拟网络环境******：接收方的确认包将在889.53到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = /....................
+接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：关闭定时器, 当前时间 = 895.04, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 895.04, 定时器报文序号 = 0, 定时器Timeout时间 = 915.04
+******模拟网络环境******：发送方的数据包将在903.47到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 14134,payload = GGGGGGGGGGGGGGGGGGGG
+
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 14134, GGGGGGGGGGGGGGGGGGGG
+接收方期待的报文序列号4
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在911.93到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 911.93, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 911.93, 定时器报文序号 = 0, 定时器Timeout时间 = 931.93
+接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：关闭定时器, 当前时间 = 931.93, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 931.93, 定时器报文序号 = 0, 定时器Timeout时间 = 951.93
+******模拟网络环境******：发送方的数据包将在934.69到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 8992,payload = IIIIIIIIIIIIIIIIIIII
+
+接收方滑动窗口的base值为4
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 8992, IIIIIIIIIIIIIIIIIIII
 ******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1085.37到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在936.33到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1085.37, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1089.04到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 6421,payload = JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：关闭定时器, 当前时间 = 936.33, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在946.73到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 6421,payload = JJJJJJJJJJJJJJJJJJJJ
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 6421, JJJJJJJJJJJJJJJJJJJJ
-******模拟网络环境******：启动定时器, 当前时间 = 1085.5, 定时器报文序号 = 0, 定时器Timeout时间 = 1105.5
-******模拟网络环境******：发送方的数据包将在1097.32到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 3850,payload = KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：启动定时器, 当前时间 = 936.49, 定时器报文序号 = 0, 定时器Timeout时间 = 956.49
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 3850,payload = KKKKKKKKKKKKKKKKKKKK
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：发送方的数据包将在1104.23到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 1279,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在957.69到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 1279,payload = LLLLLLLLLLLLLLLLLLLL
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：发送方的数据包将在1105.65到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 64251,payload = MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：发送方的数据包将在965.95到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 64251,payload = MMMMMMMMMMMMMMMMMMMM
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
 接收方滑动窗口的base值为5
@@ -1195,67 +1148,83 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在952.9到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
+    : seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
+    : seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：关闭定时器, 当前时间 = 952.9, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 952.9, 定时器报文序号 = 0, 定时器Timeout时间 = 972.9
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在962.58到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
+    : seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
+    : seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：关闭定时器, 当前时间 = 962.58, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 962.58, 定时器报文序号 = 0, 定时器Timeout时间 = 982.58
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = /....................
+******模拟网络环境******：接收方的确认包将在976.65到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = /....................
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：关闭定时器, 当前时间 = 982.58, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 982.58, 定时器报文序号 = 0, 定时器Timeout时间 = 1002.58
+******模拟网络环境******：发送方的数据包将在989.51到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 3850,payload = KKKKKKKKKKKKKKKKKKKK
+
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
 ******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
 
-接收方期待的报文序列号7
-接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在1107.89到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-接收方滑动窗口的base值为7
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
 ******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
 
-接收方期待的报文序列号0
-接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在1115.85到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 6421, JJJJJJJJJJJJJJJJJJJJ
-******模拟网络环境******：关闭定时器, 当前时间 = 1105.5, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1105.5, 定时器报文序号 = 0, 定时器Timeout时间 = 1125.5
-******模拟网络环境******：发送方的数据包将在1106.74到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 6421,payload = JJJJJJJJJJJJJJJJJJJJ
-
-接收方滑动窗口的base值为0
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
 ******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1123.7到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 6421, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：关闭定时器, 当前时间 = 1002.58, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1002.58, 定时器报文序号 = 0, 定时器Timeout时间 = 1022.58
+******模拟网络环境******：发送方的数据包将在1006.63到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 3850,payload = KKKKKKKKKKKKKKKKKKKK
+
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
 接收方期待的报文序列号1
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1125.8到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:7
-缓冲区中还有报文:
-    : seqnum = 7, acknum = -1, checksum = 1279, LLLLLLLLLLLLLLLLLLLL
-    : seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：关闭定时器, 当前时间 = 1107.89, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1107.89, 定时器报文序号 = 0, 定时器Timeout时间 = 1127.89
-此时发送方滑动窗口的base值为:0
-缓冲区中还有报文:
-    : seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：关闭定时器, 当前时间 = 1115.85, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1115.85, 定时器报文序号 = 0, 定时器Timeout时间 = 1135.85
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 3850, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：关闭定时器, 当前时间 = 1022.58, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1022.58, 定时器报文序号 = 0, 定时器Timeout时间 = 1042.58
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 3850,payload = LKKKKKKKKKKKKKKKKKKK
+
+******模拟网络环境******：发送方的数据包将在1023.87到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 3850,payload = LKKKKKKKKKKKKKKKKKKK
+
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 3850, LKKKKKKKKKKKKKKKKKKK
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1025.25到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1123.7, 定时器报文序号 = 0
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1125.8, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1132.95到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 61680,payload = NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：关闭定时器, 当前时间 = 1025.25, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1036.31到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 61680,payload = NNNNNNNNNNNNNNNNNNNN
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 61680, NNNNNNNNNNNNNNNNNNNN
-******模拟网络环境******：启动定时器, 当前时间 = 1126.06, 定时器报文序号 = 0, 定时器Timeout时间 = 1146.06
-******模拟网络环境******：发送方的数据包将在1141.94到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 59109,payload = OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：启动定时器, 当前时间 = 1025.92, 定时器报文序号 = 0, 定时器Timeout时间 = 1045.92
+******模拟网络环境******：发送方的数据包将在1038.87到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 59109,payload = OOOOOOOOOOOOOOOOOOOO
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：发送方的数据包将在1145.1到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 56538,payload = PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：发送方的数据包将在1043.64到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 56538,payload = PPPPPPPPPPPPPPPPPPPP
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
-******模拟网络环境******：发送方的数据包将在1148.86到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53967,payload = QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：发送方的数据包将在1052.77到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53967,payload = QQQQQQQQQQQQQQQQQQQQ
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
 接收方滑动窗口的base值为1
@@ -1264,136 +1233,125 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1139.91到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
-    : seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
-    : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 1139.91, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1139.91, 定时器报文序号 = 0, 定时器Timeout时间 = 1159.91
+******模拟网络环境******：接收方的确认包将在1040.89到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
 ******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
-******模拟网络环境******：接收方的确认包将在1147.38到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
+******模拟网络环境******：接收方的确认包将在1042.27到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
+    : seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
+    : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：关闭定时器, 当前时间 = 1040.89, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1040.89, 定时器报文序号 = 0, 定时器Timeout时间 = 1060.89
+此时发送方滑动窗口的base值为:3
+缓冲区中还有报文:
+    : seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
+    : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：关闭定时器, 当前时间 = 1042.27, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1042.27, 定时器报文序号 = 0, 定时器Timeout时间 = 1062.27
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
 ******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
 
 接收方期待的报文序列号4
 接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在1150.87到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+******模拟网络环境******：接收方的确认包将在1045.74到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：关闭定时器, 当前时间 = 1045.74, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1045.74, 定时器报文序号 = 0, 定时器Timeout时间 = 1065.74
 接收方滑动窗口的base值为4
 接收方缓存报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
 ******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 1150.87, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1150.87, 定时器报文序号 = 0, 定时器Timeout时间 = 1170.87
-接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 1170.87, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1170.87, 定时器报文序号 = 0, 定时器Timeout时间 = 1190.87
-******模拟网络环境******：发送方的数据包将在1172.88到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53967,payload = QQQQQQQQQQQQQQQQQQQQ
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1181.27到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在1055.57到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1181.27, 定时器报文序号 = 0
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 5, acknum = -1,checksum = 51396,payload = RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：关闭定时器, 当前时间 = 1055.57, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1058.38到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 51396,payload = RRRRRRRRRRRRRRRRRRRR
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：启动定时器, 当前时间 = 1181.56, 定时器报文序号 = 0, 定时器Timeout时间 = 1201.56
-******模拟网络环境******：发送方的数据包将在1186.87到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 48825,payload = SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：启动定时器, 当前时间 = 1056.21, 定时器报文序号 = 0, 定时器Timeout时间 = 1076.21
+******模拟网络环境******：发送方的数据包将在1065.09到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 48825,payload = SSSSSSSSSSSSSSSSSSSS
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：发送方的数据包将在1194.83到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 46254,payload = TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：发送方的数据包将在1071.47到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 46254,payload = TTTTTTTTTTTTTTTTTTTT
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
-******模拟网络环境******：发送方的数据包将在1201.6到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 43691,payload = UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 43691,payload = UUUUUUUUUUUUUUUUUUUU
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
-******模拟网络环境******：接收方的确认包将在1196.37到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1203.32到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：关闭定时器, 当前时间 = 1201.56, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1201.56, 定时器报文序号 = 0, 定时器Timeout时间 = 1221.56
-******模拟网络环境******：发送方的数据包将在1206.73到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 51396,payload = RRRRRRRRRRRRRRRRRRRR
-
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1213.94到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
-    : seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
-    : seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：关闭定时器, 当前时间 = 1203.32, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1203.32, 定时器报文序号 = 0, 定时器Timeout时间 = 1223.32
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
 ******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
 
+接收方期待的报文序列号6
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1059.6到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+    : seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 1059.6, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1059.6, 定时器报文序号 = 0, 定时器Timeout时间 = 1079.6
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
 ******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
 ******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
 
+接收方期待的报文序列号0
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1074.75到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+此时发送方滑动窗口的base值为:0
+缓冲区中还有报文:
+    : seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 1074.75, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1074.75, 定时器报文序号 = 0, 定时器Timeout时间 = 1094.75
+接收ack超时，重新发送此报文: seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 1094.75, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1094.75, 定时器报文序号 = 0, 定时器Timeout时间 = 1114.75
+******模拟网络环境******：发送方的数据包将在1103.34到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 43691,payload = UUUUUUUUUUUUUUUUUUUU
+
+接收方滑动窗口的base值为0
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
 ******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1224.01到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
-    : seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
-    : seqnum = 0, acknum = -1, checksum = 43691, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：关闭定时器, 当前时间 = 1213.94, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1213.94, 定时器报文序号 = 0, 定时器Timeout时间 = 1233.94
+******模拟网络环境******：接收方的确认包将在1109.57到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1224.01, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1228.76到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 41120,payload = VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：关闭定时器, 当前时间 = 1109.57, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1111.3到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 41120,payload = VVVVVVVVVVVVVVVVVVVV
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 41120, VVVVVVVVVVVVVVVVVVVV
-******模拟网络环境******：启动定时器, 当前时间 = 1224.23, 定时器报文序号 = 0, 定时器Timeout时间 = 1244.23
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 2, acknum = -1,checksum = 38549,payload = XWWWWWWWWWWWWWWWWWWW
-
-******模拟网络环境******：发送方的数据包将在1235.31到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 38549,payload = XWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：启动定时器, 当前时间 = 1109.77, 定时器报文序号 = 0, 定时器Timeout时间 = 1129.77
+******模拟网络环境******：发送方的数据包将在1113.54到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 38549,payload = WWWWWWWWWWWWWWWWWWWW
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
 ******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = YXXXXXXXXXXXXXXXXXXX
 
-******模拟网络环境******：发送方的数据包将在1245.79到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = YXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：发送方的数据包将在1119.56到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = YXXXXXXXXXXXXXXXXXXX
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：发送方的数据包将在1250.52到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 33407,payload = YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：发送方的数据包将在1122.81到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 33407,payload = YYYYYYYYYYYYYYYYYYYY
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
 接收方滑动窗口的base值为1
@@ -1402,80 +1360,47 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1239.37到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 2, acknum = -1, checksum = 38549, XWWWWWWWWWWWWWWWWWWW
-接收方期待的报文序列号2
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1243.56到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 1239.37, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1239.37, 定时器报文序号 = 0, 定时器Timeout时间 = 1259.37
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 1243.56, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1243.56, 定时器报文序号 = 0, 定时器Timeout时间 = 1263.56
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 35978, YXXXXXXXXXXXXXXXXXXX
-接收方期待的报文序列号2
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1247.19到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
-    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 1247.19, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1247.19, 定时器报文序号 = 0, 定时器Timeout时间 = 1267.19
-接收方滑动窗口的base值为2
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-接收方期待的报文序列号2
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 1267.19, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1267.19, 定时器报文序号 = 0, 定时器Timeout时间 = 1287.19
-******模拟网络环境******：发送方的数据包将在1273.82到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 38549,payload = WWWWWWWWWWWWWWWWWWWW
-
+******模拟网络环境******：接收方的确认包将在1120.32到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
 ******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1280.6到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 1280.6, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1280.6, 定时器报文序号 = 0, 定时器Timeout时间 = 1300.6
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：关闭定时器, 当前时间 = 1300.6, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1300.6, 定时器报文序号 = 0, 定时器Timeout时间 = 1320.6
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = YXXXXXXXXXXXXXXXXXXX
-
-******模拟网络环境******：发送方的数据包将在1310.79到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = YXXXXXXXXXXXXXXXXXXX
-
+******模拟网络环境******：接收方的确认包将在1126.52到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 35978, YXXXXXXXXXXXXXXXXXXX
 接收方期待的报文序列号3
 接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1313.25到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
+******模拟网络环境******：接收方的确认包将在1130.88到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
+此时发送方滑动窗口的base值为:2
+缓冲区中还有报文:
+    : seqnum = 2, acknum = -1, checksum = 38549, WWWWWWWWWWWWWWWWWWWW
+    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
+    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 1120.32, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1120.32, 定时器报文序号 = 0, 定时器Timeout时间 = 1140.32
+接收方滑动窗口的base值为3
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
+接收方期待的报文序列号3
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1140.14到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 此时发送方滑动窗口的base值为:3
 缓冲区中还有报文:
     : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
     : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：关闭定时器, 当前时间 = 1313.25, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1313.25, 定时器报文序号 = 0, 定时器Timeout时间 = 1333.25
+******模拟网络环境******：关闭定时器, 当前时间 = 1126.52, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1126.52, 定时器报文序号 = 0, 定时器Timeout时间 = 1146.52
+此时发送方滑动窗口的base值为:3
+缓冲区中还有报文:
+    : seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
+    : seqnum = 4, acknum = -1, checksum = 33407, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：关闭定时器, 当前时间 = 1140.14, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1140.14, 定时器报文序号 = 0, 定时器Timeout时间 = 1160.14
 接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：关闭定时器, 当前时间 = 1333.25, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1333.25, 定时器报文序号 = 0, 定时器Timeout时间 = 1353.25
-******模拟网络环境******：发送方的数据包将在1335.07到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：关闭定时器, 当前时间 = 1160.14, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1160.14, 定时器报文序号 = 0, 定时器Timeout时间 = 1180.14
+******模拟网络环境******：发送方的数据包将在1162.3到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 35978,payload = XXXXXXXXXXXXXXXXXXXX
 
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 35978, XXXXXXXXXXXXXXXXXXXX
@@ -1485,22 +1410,24 @@
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1338.82到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在1167.61到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1338.82, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1346.75到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 30836,payload = ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：关闭定时器, 当前时间 = 1167.61, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1177.46到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 30836,payload = ZZZZZZZZZZZZZZZZZZZZ
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 30836, ZZZZZZZZZZZZZZZZZZZZ
-******模拟网络环境******：启动定时器, 当前时间 = 1339.26, 定时器报文序号 = 0, 定时器Timeout时间 = 1359.26
-******模拟网络环境******：发送方的数据包将在1349.69到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29550,payload = AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：启动定时器, 当前时间 = 1167.66, 定时器报文序号 = 0, 定时器Timeout时间 = 1187.66
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 29550,payload = BAAAAAAAAAAAAAAAAAAA
+
+******模拟网络环境******：发送方的数据包将在1179.58到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29550,payload = BAAAAAAAAAAAAAAAAAAA
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：发送方的数据包将在1186.66到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：发送方的数据包将在1358.92到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 24416,payload = CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：发送方的数据包将在1194.79到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 24416,payload = CCCCCCCCCCCCCCCCCCCC
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
 接收方滑动窗口的base值为5
@@ -1509,235 +1436,140 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1349.17到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在1188.19到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 29550, BAAAAAAAAAAAAAAAAAAA
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1193.23到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = /....................
+******模拟网络环境******：接收方的确认包将在1197.3到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = /....................
+接收ack超时，重新发送此报文: seqnum = 5, acknum = -1, checksum = 30836, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：关闭定时器, 当前时间 = 1187.66, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1187.66, 定时器报文序号 = 0, 定时器Timeout时间 = 1207.66
+******模拟网络环境******：发送方的数据包将在1202.75到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 30836,payload = ZZZZZZZZZZZZZZZZZZZZ
+
 此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
     : seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
     : seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
     : seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 1349.17, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1349.17, 定时器报文序号 = 0, 定时器Timeout时间 = 1369.17
+******模拟网络环境******：关闭定时器, 当前时间 = 1188.19, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1188.19, 定时器报文序号 = 0, 定时器Timeout时间 = 1208.19
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
+    : seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
+    : seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：关闭定时器, 当前时间 = 1193.23, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1193.23, 定时器报文序号 = 0, 定时器Timeout时间 = 1213.23
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 30836, ZZZZZZZZZZZZZZZZZZZZ
+接收方期待的报文序列号6
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1206.63到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
+    : seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
+    : seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：关闭定时器, 当前时间 = 1206.63, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1206.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1226.63
+接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：关闭定时器, 当前时间 = 1226.63, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1226.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1246.63
+******模拟网络环境******：发送方的数据包将在1232.98到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29550,payload = AAAAAAAAAAAAAAAAAAAA
+
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 29550, AAAAAAAAAAAAAAAAAAAA
 ******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
 
-接收方期待的报文序列号7
-接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在1357.29到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-此时发送方滑动窗口的base值为:7
-缓冲区中还有报文:
-    : seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-    : seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
-******模拟网络环境******：关闭定时器, 当前时间 = 1357.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1357.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1377.29
-接收方滑动窗口的base值为7
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 24416, CCCCCCCCCCCCCCCCCCCC
-接收方期待的报文序列号7
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1377.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1377.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1397.29
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1397.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1397.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1417.29
-******模拟网络环境******：发送方的数据包将在1405.19到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收方滑动窗口的base值为7
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
 ******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
 
 ******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
-******模拟网络环境******：接收方的确认包将在1408.75到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1417.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1417.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1437.29
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1437.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1437.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1457.29
-******模拟网络环境******：发送方的数据包将在1440.22到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 1,checksum = 12850,payload = .....................
-******模拟网络环境******：接收方的确认包将在1448.67到达对方, 确认包为-->seqnum = -999999, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1457.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1457.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1477.29
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1477.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1477.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1497.29
-******模拟网络环境******：发送方的数据包将在1478.43到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1497.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1497.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1517.29
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1517.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1517.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1537.29
-******模拟网络环境******：发送方的数据包将在1521.56到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 1,checksum = 12850,payload = .....................
-******模拟网络环境******：接收方的确认包将在1528.54到达对方, 确认包为-->seqnum = -999999, acknum = 1,checksum = 12850,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-******模拟网络环境******：关闭定时器, 当前时间 = 1537.29, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1537.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1557.29
-******模拟网络环境******：发送方的数据包将在1547.83到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 26979,payload = BBBBBBBBBBBBBBBBBBBB
-
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 26979, BBBBBBBBBBBBBBBBBBBB
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1551.86到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在1234.1到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1551.86, 定时器报文序号 = 0
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 1, acknum = -1,checksum = 21845,payload = EDDDDDDDDDDDDDDDDDDD
-
-******模拟网络环境******：发送方的数据包将在1554.71到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 21845,payload = EDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：关闭定时器, 当前时间 = 1234.1, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1240.36到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 21845,payload = DDDDDDDDDDDDDDDDDDDD
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：启动定时器, 当前时间 = 1552.8, 定时器报文序号 = 0, 定时器Timeout时间 = 1572.8
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 2, acknum = -1,checksum = 19274,payload = FEEEEEEEEEEEEEEEEEEE
-
-******模拟网络环境******：发送方的数据包将在1556.19到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 19274,payload = FEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：启动定时器, 当前时间 = 1234.51, 定时器报文序号 = 0, 定时器Timeout时间 = 1254.51
+******模拟网络环境******：发送方的数据包将在1244.74到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 19274,payload = EEEEEEEEEEEEEEEEEEEE
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 16703,payload = FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：发送方的数据包将在1249.69到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 16703,payload = FFFFFFFFFFFFFFFFFFFF
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：发送方的数据包将在1559.02到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 14132,payload = GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：发送方的数据包将在1256.63到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 14132,payload = GGGGGGGGGGGGGGGGGGGG
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 21845, EDDDDDDDDDDDDDDDDDDD
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1565.09到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 2, acknum = -1, checksum = 19274, FEEEEEEEEEEEEEEEEEEE
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1575.17到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-接收方滑动窗口的base值为1
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1585.63到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-    : seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-    : seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
-    : seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 1565.09, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1565.09, 定时器报文序号 = 0, 定时器Timeout时间 = 1585.09
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-    : seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-    : seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
-    : seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 1575.17, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1575.17, 定时器报文序号 = 0, 定时器Timeout时间 = 1595.17
-对该报文进行快速重传: seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：发送方的数据包将在1591.15到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 21845,payload = DDDDDDDDDDDDDDDDDDDD
-
 接收方滑动窗口的base值为1
 接收方缓存报文: seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
 ******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1599.64到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-******模拟网络环境******：关闭定时器, 当前时间 = 1595.17, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1595.17, 定时器报文序号 = 0, 定时器Timeout时间 = 1615.17
-******模拟网络环境******：发送方的数据包将在1601.76到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 21845,payload = DDDDDDDDDDDDDDDDDDDD
-
+******模拟网络环境******：接收方的确认包将在1243.85到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
     : seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
     : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 1599.64, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1599.64, 定时器报文序号 = 0, 定时器Timeout时间 = 1619.64
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 21845, DDDDDDDDDDDDDDDDDDDD
-接收方期待的报文序列号2
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1610.62到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
-此时发送方滑动窗口的base值为:2
-缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
-    : seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 1610.62, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1610.62, 定时器报文序号 = 0, 定时器Timeout时间 = 1630.62
-接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
-******模拟网络环境******：关闭定时器, 当前时间 = 1630.62, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1630.62, 定时器报文序号 = 0, 定时器Timeout时间 = 1650.62
-******模拟网络环境******：发送方的数据包将在1636.27到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 19274,payload = EEEEEEEEEEEEEEEEEEEE
-
+******模拟网络环境******：关闭定时器, 当前时间 = 1243.85, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1243.85, 定时器报文序号 = 0, 定时器Timeout时间 = 1263.85
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 19274, EEEEEEEEEEEEEEEEEEEE
 ******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1640.63到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-    : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
-******模拟网络环境******：关闭定时器, 当前时间 = 1640.63, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1640.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1660.63
-接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
-******模拟网络环境******：关闭定时器, 当前时间 = 1660.63, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1660.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1680.63
-******模拟网络环境******：发送方的数据包将在1671.04到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 16703,payload = FFFFFFFFFFFFFFFFFFFF
-
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 16703, FFFFFFFFFFFFFFFFFFFF
 ******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
 
+接收方期待的报文序列号4
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1253.95到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+此时发送方滑动窗口的base值为:4
+缓冲区中还有报文:
+    : seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：关闭定时器, 当前时间 = 1253.95, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1253.95, 定时器报文序号 = 0, 定时器Timeout时间 = 1273.95
+接收方滑动窗口的base值为4
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 14132, GGGGGGGGGGGGGGGGGGGG
 ******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1673.81到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+******模拟网络环境******：接收方的确认包将在1264.34到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1673.81, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1678.65到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 11561,payload = HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：关闭定时器, 当前时间 = 1264.34, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1270.2到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 11561,payload = HHHHHHHHHHHHHHHHHHHH
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 11561, HHHHHHHHHHHHHHHHHHHH
-******模拟网络环境******：启动定时器, 当前时间 = 1673.91, 定时器报文序号 = 0, 定时器Timeout时间 = 1693.91
-******模拟网络环境******：发送方的数据包将在1684.61到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 8990,payload = IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：启动定时器, 当前时间 = 1265.23, 定时器报文序号 = 0, 定时器Timeout时间 = 1285.23
+******模拟网络环境******：发送方的数据包将在1276.35到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 8990,payload = IIIIIIIIIIIIIIIIIIII
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 8990, IIIIIIIIIIIIIIIIIIII
-******模拟网络环境******：发送方的数据包将在1688.36到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 6419,payload = JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：发送方的数据包将在1287.01到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 6419,payload = JJJJJJJJJJJJJJJJJJJJ
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 6419, JJJJJJJJJJJJJJJJJJJJ
-******模拟网络环境******：发送方的数据包将在1697.45到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 3856,payload = KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：发送方的数据包将在1289.5到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 3856,payload = KKKKKKKKKKKKKKKKKKKK
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
 接收方滑动窗口的base值为5
@@ -1746,61 +1578,63 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1687.49到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在1274.52到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 8990, IIIIIIIIIIIIIIIIIIII
+    : seqnum = 7, acknum = -1, checksum = 6419, JJJJJJJJJJJJJJJJJJJJ
+    : seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：关闭定时器, 当前时间 = 1274.52, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1274.52, 定时器报文序号 = 0, 定时器Timeout时间 = 1294.52
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 8990, IIIIIIIIIIIIIIIIIIII
 ******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
 
 接收方期待的报文序列号7
 接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
-******模拟网络环境******：接收方的确认包将在1688.7到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
-此时发送方滑动窗口的base值为:6
+******模拟网络环境******：接收方的确认包将在1279.47到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+此时发送方滑动窗口的base值为:7
 缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 8990, IIIIIIIIIIIIIIIIIIII
     : seqnum = 7, acknum = -1, checksum = 6419, JJJJJJJJJJJJJJJJJJJJ
     : seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：关闭定时器, 当前时间 = 1687.49, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1687.49, 定时器报文序号 = 0, 定时器Timeout时间 = 1707.49
+******模拟网络环境******：关闭定时器, 当前时间 = 1279.47, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1279.47, 定时器报文序号 = 0, 定时器Timeout时间 = 1299.47
 接收方滑动窗口的base值为7
 接收方缓存报文: seqnum = 7, acknum = -1, checksum = 6419, JJJJJJJJJJJJJJJJJJJJ
 ******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
 
 接收方期待的报文序列号0
 接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
-******模拟网络环境******：接收方的确认包将在1696.51到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
-此时发送方滑动窗口的base值为:7
-缓冲区中还有报文:
-    : seqnum = 7, acknum = -1, checksum = 6419, JJJJJJJJJJJJJJJJJJJJ
-    : seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：关闭定时器, 当前时间 = 1688.7, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1688.7, 定时器报文序号 = 0, 定时器Timeout时间 = 1708.7
+******模拟网络环境******：接收方的确认包将在1289.2到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
 此时发送方滑动窗口的base值为:0
 缓冲区中还有报文:
     : seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
-******模拟网络环境******：关闭定时器, 当前时间 = 1696.51, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1696.51, 定时器报文序号 = 0, 定时器Timeout时间 = 1716.51
+******模拟网络环境******：关闭定时器, 当前时间 = 1289.2, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1289.2, 定时器报文序号 = 0, 定时器Timeout时间 = 1309.2
 接收方滑动窗口的base值为0
 接收方缓存报文: seqnum = 0, acknum = -1, checksum = 3856, KKKKKKKKKKKKKKKKKKKK
 ******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1700.56到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在1294.71到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1700.56, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1707.21到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 1285,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：关闭定时器, 当前时间 = 1294.71, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1297.6到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 1285,payload = LLLLLLLLLLLLLLLLLLLL
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 1285, LLLLLLLLLLLLLLLLLLLL
-******模拟网络环境******：启动定时器, 当前时间 = 1701.24, 定时器报文序号 = 0, 定时器Timeout时间 = 1721.24
-******模拟网络环境******：发送方的数据包将在1711.36到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 64249,payload = MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：启动定时器, 当前时间 = 1294.79, 定时器报文序号 = 0, 定时器Timeout时间 = 1314.79
+******模拟网络环境******：发送方的数据包将在1302到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 64249,payload = MMMMMMMMMMMMMMMMMMMM
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 64249, MMMMMMMMMMMMMMMMMMMM
-******模拟网络环境******：发送方的数据包将在1716.37到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 61678,payload = NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 61678,payload = NNNNNNNNNNNNNNNNNNNN
+
+******模拟网络环境******：发送方的数据包将在1306.81到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 61678,payload = NNNNNNNNNNNNNNNNNNNN
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
-******模拟网络环境******：发送方的数据包将在1717.76到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 59107,payload = OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 4, acknum = -1,checksum = 59107,payload = OOOOOOOOOOOOOOOOOOOO
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
 接收方滑动窗口的base值为1
@@ -1809,63 +1643,75 @@
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1717.19到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在1302.74到达对方, 确认包为-->seqnum = -999999, acknum = 2,checksum = 12849,payload = .....................
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 64249, MMMMMMMMMMMMMMMMMMMM
 ******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
 
 接收方期待的报文序列号3
 接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1721.2到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在1306.29到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+此时发送方滑动窗口的base值为:3
+缓冲区中还有报文:
+    : seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
+    : seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 1306.29, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1306.29, 定时器报文序号 = 0, 定时器Timeout时间 = 1326.29
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
+接收方期待的报文序列号3
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1313.63到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+此时发送方滑动窗口的base值为:3
+缓冲区中还有报文:
+    : seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
+    : seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 1313.63, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1313.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1333.63
+接收ack超时，重新发送此报文: seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：关闭定时器, 当前时间 = 1333.63, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1333.63, 定时器报文序号 = 0, 定时器Timeout时间 = 1353.63
+******模拟网络环境******：发送方的数据包将在1339.55到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 61678,payload = NNNNNNNNNNNNNNNNNNNN
+
 接收方滑动窗口的base值为3
 接收方缓存报文: seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
 ******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
 
 接收方期待的报文序列号4
 接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在1729.15到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
-此时发送方滑动窗口的base值为:2
+******模拟网络环境******：接收方的确认包将在1341.12到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+此时发送方滑动窗口的base值为:4
 缓冲区中还有报文:
-    : seqnum = 2, acknum = -1, checksum = 64249, MMMMMMMMMMMMMMMMMMMM
-    : seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
     : seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：关闭定时器, 当前时间 = 1717.19, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1717.19, 定时器报文序号 = 0, 定时器Timeout时间 = 1737.19
+******模拟网络环境******：关闭定时器, 当前时间 = 1341.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1341.12, 定时器报文序号 = 0, 定时器Timeout时间 = 1361.12
+接收ack超时，重新发送此报文: seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：关闭定时器, 当前时间 = 1361.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1361.12, 定时器报文序号 = 0, 定时器Timeout时间 = 1381.12
+******模拟网络环境******：发送方的数据包将在1364.04到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 59107,payload = OOOOOOOOOOOOOOOOOOOO
+
 接收方滑动窗口的base值为4
 接收方缓存报文: seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
 ******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1734.54到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 61678, NNNNNNNNNNNNNNNNNNNN
-    : seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：关闭定时器, 当前时间 = 1721.2, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1721.2, 定时器报文序号 = 0, 定时器Timeout时间 = 1741.2
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 59107, OOOOOOOOOOOOOOOOOOOO
-******模拟网络环境******：关闭定时器, 当前时间 = 1729.15, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1729.15, 定时器报文序号 = 0, 定时器Timeout时间 = 1749.15
+******模拟网络环境******：接收方的确认包将在1366.91到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1734.54, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1743.46到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 56536,payload = PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：关闭定时器, 当前时间 = 1366.91, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1376.64到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 56536,payload = PPPPPPPPPPPPPPPPPPPP
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 56536, PPPPPPPPPPPPPPPPPPPP
-******模拟网络环境******：启动定时器, 当前时间 = 1735.09, 定时器报文序号 = 0, 定时器Timeout时间 = 1755.09
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 53965,payload = RQQQQQQQQQQQQQQQQQQQ
-
-******模拟网络环境******：发送方的数据包将在1750.95到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 53965,payload = RQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：启动定时器, 当前时间 = 1368.25, 定时器报文序号 = 0, 定时器Timeout时间 = 1388.25
+******模拟网络环境******：发送方的数据包将在1386.74到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 53965,payload = QQQQQQQQQQQQQQQQQQQQ
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：发送方的数据包将在1759.98到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 51394,payload = RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 51394,payload = RRRRRRRRRRRRRRRRRRRR
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
-******模拟网络环境******：发送方的数据包将在1766.85到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 48831,payload = SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：发送方的数据包将在1388.31到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 48831,payload = SSSSSSSSSSSSSSSSSSSS
 
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
 接收方滑动窗口的base值为5
@@ -1874,210 +1720,212 @@
 
 接收方期待的报文序列号6
 接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1752.76到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 53965, RQQQQQQQQQQQQQQQQQQQ
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1760.65到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+******模拟网络环境******：接收方的确认包将在1385.2到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
 此时发送方滑动窗口的base值为:6
 缓冲区中还有报文:
     : seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
     : seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
     : seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 1752.76, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1752.76, 定时器报文序号 = 0, 定时器Timeout时间 = 1772.76
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1762.31到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-    : seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 1760.65, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1760.65, 定时器报文序号 = 0, 定时器Timeout时间 = 1780.65
-此时发送方滑动窗口的base值为:6
-缓冲区中还有报文:
-    : seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-    : seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
-    : seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
-******模拟网络环境******：关闭定时器, 当前时间 = 1762.31, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1762.31, 定时器报文序号 = 0, 定时器Timeout时间 = 1782.31
-接收方滑动窗口的base值为6
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
-接收方期待的报文序列号6
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
-******模拟网络环境******：接收方的确认包将在1776.62到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
-对该报文进行快速重传: seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：发送方的数据包将在1783.59到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 53965,payload = QQQQQQQQQQQQQQQQQQQQ
-
-接收ack超时，重新发送此报文: seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-******模拟网络环境******：关闭定时器, 当前时间 = 1782.31, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1782.31, 定时器报文序号 = 0, 定时器Timeout时间 = 1802.31
-******模拟网络环境******：发送方的数据包将在1786.76到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 53965,payload = QQQQQQQQQQQQQQQQQQQQ
-
+******模拟网络环境******：关闭定时器, 当前时间 = 1385.2, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1385.2, 定时器报文序号 = 0, 定时器Timeout时间 = 1405.2
 接收方滑动窗口的base值为6
 接收方缓存报文: seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
 ******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1392到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+接收方期待的报文序列号7
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1396.3到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
+    : seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：关闭定时器, 当前时间 = 1392, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1392, 定时器报文序号 = 0, 定时器Timeout时间 = 1412
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
+    : seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：关闭定时器, 当前时间 = 1396.3, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1396.3, 定时器报文序号 = 0, 定时器Timeout时间 = 1416.3
+接收ack超时，重新发送此报文: seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：关闭定时器, 当前时间 = 1416.3, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1416.3, 定时器报文序号 = 0, 定时器Timeout时间 = 1436.3
+******模拟网络环境******：发送方的数据包将在1425.72到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 51394,payload = RRRRRRRRRRRRRRRRRRRR
+
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 51394, RRRRRRRRRRRRRRRRRRRR
 ******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
 
 ******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
 
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1785.51到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在1428.16到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1785.51, 定时器报文序号 = 0
-接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 53965, QQQQQQQQQQQQQQQQQQQQ
-接收方期待的报文序列号1
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1791.51到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
-此时发送方滑动窗口的base值为:1
-缓冲区中还有报文:
-发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1791.51, 定时器报文序号 = 0
-******模拟网络环境******：发送方的数据包将在1797.76到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 46260,payload = TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：关闭定时器, 当前时间 = 1428.16, 定时器报文序号 = 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 46260,payload = TTTTTTTTTTTTTTTTTTTT
 
 发送方发送报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
-******模拟网络环境******：启动定时器, 当前时间 = 1792.01, 定时器报文序号 = 0, 定时器Timeout时间 = 1812.01
-******模拟网络环境******：发送方的数据包将在1805.57到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 43689,payload = UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：启动定时器, 当前时间 = 1428.38, 定时器报文序号 = 0, 定时器Timeout时间 = 1448.38
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 2, acknum = -999999,checksum = 43689,payload = UUUUUUUUUUUUUUUUUUUU
+
+******模拟网络环境******：发送方的数据包将在1433.52到达对方, 数据包为-->seqnum = 2, acknum = -999999,checksum = 43689,payload = UUUUUUUUUUUUUUUUUUUU
 
 发送方发送报文: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
-******模拟网络环境******：发送方的数据包将在1807.43到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 41118,payload = VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：发送方的数据包将在1442.27到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 41118,payload = VVVVVVVVVVVVVVVVVVVV
 
 发送方发送报文: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
-******模拟网络环境******：发送方的数据包将在1810.86到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 38547,payload = WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：发送方的数据包将在1451.25到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 38547,payload = WWWWWWWWWWWWWWWWWWWW
 
 发送方发送报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 2, acknum = -999999, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方滑动窗口的base值为1
+接收方缓存报文: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1451.65到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：关闭定时器, 当前时间 = 1448.38, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1448.38, 定时器报文序号 = 0, 定时器Timeout时间 = 1468.38
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 46260,payload = TTTTTTTTTTTTTTTTTTTT
+
+接收方滑动窗口的base值为1
+接收方缓存报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+接收方期待的报文序列号1
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1462.26到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+此时发送方滑动窗口的base值为:1
+缓冲区中还有报文:
+    : seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+    : seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+    : seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：关闭定时器, 当前时间 = 1451.65, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1451.65, 定时器报文序号 = 0, 定时器Timeout时间 = 1471.65
+此时发送方滑动窗口的base值为:1
+缓冲区中还有报文:
+    : seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+    : seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+    : seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+    : seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：关闭定时器, 当前时间 = 1462.26, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1462.26, 定时器报文序号 = 0, 定时器Timeout时间 = 1482.26
+接收ack超时，重新发送此报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：关闭定时器, 当前时间 = 1482.26, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1482.26, 定时器报文序号 = 0, 定时器Timeout时间 = 1502.26
+******模拟网络环境******：发送方的数据包将在1489.23到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 46260,payload = TTTTTTTTTTTTTTTTTTTT
+
 接收方滑动窗口的base值为1
 接收方缓存报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
 ******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
 
 接收方期待的报文序列号2
 接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
-******模拟网络环境******：接收方的确认包将在1802.8到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+******模拟网络环境******：接收方的确认包将在1498.76到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
 此时发送方滑动窗口的base值为:2
 缓冲区中还有报文:
     : seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
     : seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
     : seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 1802.8, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1802.8, 定时器报文序号 = 0, 定时器Timeout时间 = 1822.8
+******模拟网络环境******：关闭定时器, 当前时间 = 1498.76, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1498.76, 定时器报文序号 = 0, 定时器Timeout时间 = 1518.76
+接收ack超时，重新发送此报文: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：关闭定时器, 当前时间 = 1518.76, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1518.76, 定时器报文序号 = 0, 定时器Timeout时间 = 1538.76
+******模拟网络环境******：发送方的数据包将在1527.01到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 43689,payload = UUUUUUUUUUUUUUUUUUUU
+
 接收方滑动窗口的base值为2
 接收方缓存报文: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
 ******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
 
-接收方期待的报文序列号3
-接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
-******模拟网络环境******：接收方的确认包将在1810.09到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
-接收方滑动窗口的base值为3
-接收方缓存报文: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
 ******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
 
-接收方期待的报文序列号4
-接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
-******模拟网络环境******：接收方的确认包将在1820.26到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
-此时发送方滑动窗口的base值为:3
-缓冲区中还有报文:
-    : seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
-    : seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 1810.09, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1810.09, 定时器报文序号 = 0, 定时器Timeout时间 = 1830.09
-接收方滑动窗口的base值为4
-接收方缓存报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
 ******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
 
 接收方期待的报文序列号5
 接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1824.67到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:4
-缓冲区中还有报文:
-    : seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
-******模拟网络环境******：关闭定时器, 当前时间 = 1820.26, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1820.26, 定时器报文序号 = 0, 定时器Timeout时间 = 1840.26
+******模拟网络环境******：接收方的确认包将在1532.67到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
 此时发送方滑动窗口的base值为:5
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1824.67, 定时器报文序号 = 0
-******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 35976,payload = XXXXXXXXXXXXXXXXXXXX
-
-******模拟网络环境******：发送方的数据包将在1832.28到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 35976,payload = XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：关闭定时器, 当前时间 = 1532.67, 定时器报文序号 = 0
+******模拟网络环境******：发送方的数据包将在1540.61到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 35976,payload = XXXXXXXXXXXXXXXXXXXX
 
 发送方发送报文: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：启动定时器, 当前时间 = 1824.83, 定时器报文序号 = 0, 定时器Timeout时间 = 1844.83
-******模拟网络环境******：发送方的数据包将在1836.99到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 33405,payload = YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：启动定时器, 当前时间 = 1533.1, 定时器报文序号 = 0, 定时器Timeout时间 = 1553.1
+******模拟网络环境******：发送方的数据包将在1542.71到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 33405,payload = YYYYYYYYYYYYYYYYYYYY
 
 发送方发送报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
-******模拟网络环境******：发送方的数据包将在1845.87到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 30834,payload = ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：发送方的数据包将在1546.1到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 30834,payload = ZZZZZZZZZZZZZZZZZZZZ
 
 发送方发送报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
-******模拟网络环境******：发送方的数据包将在1852.46到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29873,payload = EOF                  
+******模拟网络环境******：发送方的数据包将在1547.52到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29873,payload = EOF                  
 发送方发送报文: seqnum = 0, acknum = -1, checksum = 29873, EOF                 
-接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1841.17到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1851.47到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
-    : seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
-    : seqnum = 0, acknum = -1, checksum = 29873, EOF                 
-******模拟网络环境******：关闭定时器, 当前时间 = 1841.17, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1841.17, 定时器报文序号 = 0, 定时器Timeout时间 = 1861.17
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-此时发送方滑动窗口的base值为:5
-缓冲区中还有报文:
-    : seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
-    : seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
-    : seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
-    : seqnum = 0, acknum = -1, checksum = 29873, EOF                 
-******模拟网络环境******：关闭定时器, 当前时间 = 1851.47, 定时器报文序号 = 0
-******模拟网络环境******：启动定时器, 当前时间 = 1851.47, 定时器报文序号 = 0, 定时器Timeout时间 = 1871.47
-接收方滑动窗口的base值为5
-接收方缓存报文: seqnum = 0, acknum = -1, checksum = 29873, EOF                 
-接收方期待的报文序列号5
-接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
-******模拟网络环境******：接收方的确认包将在1856.13到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
-对该报文进行快速重传: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
-******模拟网络环境******：发送方的数据包将在1857.21到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 35976,payload = XXXXXXXXXXXXXXXXXXXX
-
 接收方滑动窗口的base值为5
 接收方缓存报文: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
 ******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
 
+接收方期待的报文序列号6
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1544.5到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方滑动窗口的base值为6
+接收方缓存报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
 ******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
 
+接收方期待的报文序列号7
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1552.38到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+此时发送方滑动窗口的base值为:6
+缓冲区中还有报文:
+    : seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
+    : seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+    : seqnum = 0, acknum = -1, checksum = 29873, EOF                 
+******模拟网络环境******：关闭定时器, 当前时间 = 1544.5, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1544.5, 定时器报文序号 = 0, 定时器Timeout时间 = 1564.5
+接收方滑动窗口的base值为7
+接收方缓存报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
 ******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
 
+接收方期待的报文序列号0
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1555.59到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方滑动窗口的base值为0
+接收方缓存报文: seqnum = 0, acknum = -1, checksum = 29873, EOF                 
 ******模拟网络环境******：向上递交给应用层数据：EOF                  
 接收方期待的报文序列号1
 接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：接收方的确认包将在1868.1到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+******模拟网络环境******：接收方的确认包将在1563.31到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+此时发送方滑动窗口的base值为:7
+缓冲区中还有报文:
+    : seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+    : seqnum = 0, acknum = -1, checksum = 29873, EOF                 
+******模拟网络环境******：关闭定时器, 当前时间 = 1552.38, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1552.38, 定时器报文序号 = 0, 定时器Timeout时间 = 1572.38
+此时发送方滑动窗口的base值为:0
+缓冲区中还有报文:
+    : seqnum = 0, acknum = -1, checksum = 29873, EOF                 
+******模拟网络环境******：关闭定时器, 当前时间 = 1555.59, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1555.59, 定时器报文序号 = 0, 定时器Timeout时间 = 1575.59
 此时发送方滑动窗口的base值为:1
 缓冲区中还有报文:
 发送方收到正确确认: seqnum = -1, acknum = 1, checksum = 12850, ....................
-******模拟网络环境******：关闭定时器, 当前时间 = 1868.1, 定时器报文序号 = 0
+******模拟网络环境******：关闭定时器, 当前时间 = 1563.31, 定时器报文序号 = 0
 ******模拟网络环境******：模拟网络环境已发送应用层Message已达上限，关闭模拟网络环境
 已发送应用层Message个数: 105
-发送到网络层数据Packet个数: 154
-网络层丢失的数据Packet个数: 19
-网络层损坏的数据pakcet个数:16
-发送到网络层确认Packet个数:135
-网络层丢失的确认Packet个数: 17
-网络层损坏的确认Packet个数: 9
+发送到网络层数据Packet个数: 138
+网络层丢失的数据Packet个数: 14
+网络层损坏的数据pakcet个数:11
+发送到网络层确认Packet个数:124
+网络层丢失的确认Packet个数: 12
+网络层损坏的确认Packet个数: 10
 
