@@ -44,7 +44,7 @@ void GBNRdtReceiver::receive(Packet & packet)
 			sndpkt.checksum = pUtils->calculateCheckSum(sndpkt);
 			pUtils->printPacket("接收方发送确认报文", sndpkt);
 			pns->sendToNetworkLayer(SENDER, sndpkt);
-			expectedSeqNum = (expectedSeqNum + 1) % N;
+			expectedSeqNum = (expectedSeqNum + 1) % (2 * N);
 			return;
 		}
 		else

@@ -46,21 +46,21 @@ void TCPRdtReceiver::receive(Packet & packet)
 {
 	if (pUtils->calculateCheckSum(packet) == packet.checksum)
 	{
-		if ((packet.seqnum - base + N) % N < N / 2)
+		if ((packet.seqnum - base + 2 * N) % (2 * N) < N)
 		{
-			cout << "接收方滑动窗口的base" << base << endl;
+			cout << "接收方滑动窗口的base值为" << base << endl;
 			pUtils->printPacket("接收方缓存报文", packet);
-			buffer[packet.seqnum] = packet;
-			buffer[packet.seqnum].acknum = 1;
+			buffer[packet.seqnum % N] = packet;
+			buffer[packet.seqnum % N].acknum = 1;
 			if (base == packet.seqnum)
 			{
 				Message msg;
-				while (buffer[base].acknum == 1)
+				while (buffer[base % N].acknum == 1)
 				{
-					memcpy(msg.data, buffer[base].payload, sizeof(buffer[base].payload));
+					memcpy(msg.data, buffer[base % N].payload, sizeof(buffer[base % N].payload));
 					pns->delivertoAppLayer(RECEIVER, msg);
-					buffer[base].acknum = -1;
-					base = (base + 1) % N;
+					buffer[base % N].acknum = -1;
+					base = (base + 1) % (2 * N);
 				}
 				sndpkt.acknum = base;
 				sndpkt.checksum = pUtils->calculateCheckSum(sndpkt);

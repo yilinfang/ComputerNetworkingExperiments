@@ -24,18 +24,18 @@ bool TCPRdtSender::send(Message & message)
 	{
 		return false;
 	}
-	sndpkt[nextSeqNum].acknum = -1;
-	sndpkt[nextSeqNum].seqnum = nextSeqNum;
-	sndpkt[nextSeqNum].checksum = 0;
-	memcpy(sndpkt[nextSeqNum].payload, message.data, sizeof(message.data));
-	sndpkt[nextSeqNum].checksum = pUtils->calculateCheckSum(sndpkt[nextSeqNum]);
-	pns->sendToNetworkLayer(RECEIVER, sndpkt[nextSeqNum]);
-	pUtils->printPacket("发送方发送报文", sndpkt[nextSeqNum]);
+	sndpkt[nextSeqNum % N].acknum = -1;
+	sndpkt[nextSeqNum % N].seqnum = nextSeqNum;
+	sndpkt[nextSeqNum % N].checksum = 0;
+	memcpy(sndpkt[nextSeqNum % N].payload, message.data, sizeof(message.data));
+	sndpkt[nextSeqNum % N].checksum = pUtils->calculateCheckSum(sndpkt[nextSeqNum % N]);
+	pns->sendToNetworkLayer(RECEIVER, sndpkt[nextSeqNum % N]);
+	pUtils->printPacket("发送方发送报文", sndpkt[nextSeqNum % N]);
 	if (base == nextSeqNum)
 	{
 		pns->startTimer(SENDER, Configuration::TIME_OUT, 0);
 	}
-	nextSeqNum = (nextSeqNum + 1) % N;
+	nextSeqNum = (nextSeqNum + 1) %  (2 * N);
 	return true;
 }
 
@@ -49,8 +49,8 @@ void TCPRdtSender::receive(Packet & ackPkt)
 			if (count == 3)
 			{
 				count = 0;
-				pUtils->printPacket("对该报文进行快速重传", sndpkt[base]);
-				pns->sendToNetworkLayer(RECEIVER, sndpkt[base]);
+				pUtils->printPacket("对该报文进行快速重传", sndpkt[base % N]);
+				pns->sendToNetworkLayer(RECEIVER, sndpkt[base % N]);
 				return;
 			}
 		}
@@ -63,8 +63,8 @@ void TCPRdtSender::receive(Packet & ackPkt)
 		int i = base;
 		while (i != nextSeqNum)
 		{
-			pUtils->printPacket("    ", sndpkt[i]);
-			i = (i + 1) % N;
+			pUtils->printPacket("    ", sndpkt[i % N]);
+			i = (i + 1) % (2 * N);
 		}
 		if (base == nextSeqNum)
 		{
@@ -81,15 +81,15 @@ void TCPRdtSender::receive(Packet & ackPkt)
 
 void TCPRdtSender::timeoutHandler(int seqNum)
 {
-	pUtils->printPacket("接收ack超时，重新发送此报文之后的报文", sndpkt[base]);
+	pUtils->printPacket("接收ack超时，重新发送此报文", sndpkt[base % N]);
 	pns->stopTimer(SENDER, seqNum);
 	pns->startTimer(SENDER, Configuration::TIME_OUT, seqNum);
-	pns->sendToNetworkLayer(RECEIVER, sndpkt[base]);
+	pns->sendToNetworkLayer(RECEIVER, sndpkt[base % N]);
 }
 
 bool TCPRdtSender::getWaitingState()
 {
-	if ((nextSeqNum - base + N) % N < N / 2)
+	if ((nextSeqNum - base + 2 * N) % (2 * N) < N)
 	{
 		return false;
 	}
